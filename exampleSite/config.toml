@@ -1,7 +1,7 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "Infinity | Comming Soon Hugo Template By Themefisher"
-theme = "infinity-hugo"
+theme = "mayball2021"
 removePathAccents = true
 
 
