@@ -1,42 +1,46 @@
 <div class="container">
     <nav class="navbar navbar-fixed-top  navigation " id="top-nav">
-        <a class="navbar-brand float-none float-lg-left" href="{{ .Site.BaseURL }}">
-		<!--{{ with .Site.Params.navigation.logo }}-->
-		<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>
-		<!-- <img src="{{ . }}" alt="logo">-->
-		<!--{{ end }}-->
-        </a>
+        
         <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <i class="tf-ion-android-menu"></i>
         </button>
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-            <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
-                <li class="nav-item active">
+            <ul class="nav navbar-nav menu" id="top-nav">
+                <li class="nav-item active" style="float:left">
                     <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
                     </a>
                 </li>
                 {{ if .Site.Params.about.enable }}
-                    <li class="nav-item">
+                    <li class="nav-item" style="float:left">
                         <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
+
                 {{ if .Site.Params.service.enable }}
-                    <li class="nav-item">
+                    <li class="nav-item active" style="float:right">
                         <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
                             {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
+
                 {{ if .Site.Params.contact.enable }}
-                    <li class="nav-item">
+                    <li class="nav-item" style="float:right; margin-right: 15px;">
                         <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "contact" | urlize }}">
                             {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
+
+                                <a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
+                {{ with .Site.Params.navigation.logo }}
+                <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
+                <img src="{{ . }}" alt="logo" style="width:150px; margin-right: auto; margin-left: auto; display: block;">
+                {{ end }}
+                </a>
             </ul>
         </div>
     </nav>
