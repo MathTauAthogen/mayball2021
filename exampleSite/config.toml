@@ -88,11 +88,21 @@ delay   = "0.4s"
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
+icon    = "tf-circle-compass"
+title   = "Head of Ops"
+description = "Rosanna Mutsaars"
+email = "mayball.headofoperations@cai.cam.ac.uk"
+delay   = "0.6s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
 icon    = "tf-globe"
 title   = "Staff"
 description = "Aysha Iqbal"
 email = "mayball.headofstaff@cai.cam.ac.uk"
-delay   = "0.6s"
+delay   = "0.8s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -102,16 +112,6 @@ icon    = "tf-strategy"
 title   = "Secretary"
 description = "Arjun Sharma"
 email = "mayball.secretary@cai.cam.ac.uk"
-delay   = "0.8s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Head of Ops"
-description = "Rosanna Mutsaars"
-email = "mayball.headofoperations@cai.cam.ac.uk"
 delay   = "1.0s"
 
 [[params.service.serviceItem]]
