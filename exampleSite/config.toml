@@ -202,7 +202,7 @@ icon    = "tf-globe"
 title   = "Ents"
 description = "Emily Herbert"
 email = "mayball.ents@cai.cam.ac.uk"
-delay   = "3.0s"
+delay   = "2.8s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -212,7 +212,7 @@ icon    = "tf-anchor2"
 title   = "Food"
 description = "Kate Aspbury"
 email = "mayball.food@cai.cam.ac.uk"
-delay   = "2.8s"
+delay   = "3.0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
