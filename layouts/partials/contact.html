@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 offset-md-3">
                     <div class="form-group">
-                        <form action="#" method="POST">
+                        <form action="#" method="POST" data-netlify="true" name="vendorsponsor">
                             <div class="input-field">
                                 <input type="text" class="form-control" placeholder="{{ i18n `yourName` }}" name="name">
                             </div>
@@ -27,7 +27,7 @@
                             <div class="input-field">
                                 <textarea class="form-control" placeholder="{{ i18n `yourMessage` }}" rows="3" name="message"></textarea>
                             </div>
-                            <button class="btn btn-send" type="submit">{{ i18n "sendMe" }}</button>
+                            <button class="btn btn-send" type="submit">{{ i18n `submit` }}</button>
                         </form>
 
                         <div id="success">

@@ -489,9 +489,6 @@ a:active {
 --*/
 .call-to-action {
   padding: 90px 0px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
 
@@ -502,7 +499,6 @@ a:active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
 }
 
 .call-to-action .block h2 {

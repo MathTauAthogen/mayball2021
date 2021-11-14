@@ -38,3 +38,6 @@ yourMessage:
   other: "Your Message"
 yourName:
   other: "Your Name"
+
+submit:
+  other: "Submit"

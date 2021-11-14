@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com"
+baseURL = "caiusmayball"
 languageCode = "en-us"
 title = "Gonville and Caius May Ball"
 theme = "mayball2021"
@@ -15,7 +15,7 @@ customHead = ""
 logo = "images/logo-gc.png"
 home = "Home"
 about = "About"
-service = "Services"
+service = "Our Team"
 contact = "Contact"
 
 # Hero Area
@@ -35,17 +35,17 @@ countdownDay  = "21"
 # About Section
 [params.about]
 enable      = true
-heading     = "."
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+heading     = "Accessibility Pledge"
+description = "We pledge to [Insert Pledge Here]"
 
-[[params.about.sliderItem]]
-image   = "images/about/1.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/2.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/3.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/2.jpg"
+#[[params.about.sliderItem]]
+#image   = "images/about/1.jpg"
+#[[params.about.sliderItem]]
+#image   = "images/about/2.jpg"
+#[[params.about.sliderItem]]
+#image   = "images/about/3.jpg"
+#[[params.about.sliderItem]]
+#image   = "images/about/2.jpg"
 
 
 # Service Section
@@ -189,7 +189,7 @@ delay   = "2.4s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-circle-compass"
-title   = "Ents"
+title   = "Ents 1"
 description = "Stan MacMurray"
 email = "mayball.ents@cai.cam.ac.uk"
 delay   = "2.6s"
@@ -199,7 +199,7 @@ delay   = "2.6s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-globe"
-title   = "Ents"
+title   = "Ents 2"
 description = "Emily Herbert"
 email = "mayball.ents@cai.cam.ac.uk"
 delay   = "2.8s"
@@ -248,10 +248,10 @@ delay   = "3.6s"
 [params.cta]
 enable      = true
 bg          = "images/call-to-action.jpg"
-title       = "Subscribe to our mailing list"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+title       = "Media Enquiries"
+subtitle    = "For media enquiries, please email "
 
 [params.contact]
 enable      = true
-title       = "Get In Touch"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+title       = "Vendors/Sponsors"
+subtitle    = "Are you interested in being a Vendor or a Sponsor? Fill out this form and we'll get back to you soon!"

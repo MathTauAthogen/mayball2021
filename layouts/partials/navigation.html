@@ -28,7 +28,7 @@
                 {{ end }}
 
                 {{ if .Site.Params.contact.enable }}
-                    <li class="nav-item" style="float:right; margin-right: 15px;">
+                    <li class="nav-item" style="float:right; margin-right: 0px;">
                         <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "contact" | urlize }}">
                             {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
                         </a>
