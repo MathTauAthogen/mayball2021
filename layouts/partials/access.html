@@ -1,4 +1,4 @@
-{{ if .Site.Params.about.enable }}
+{{ if .Site.Params.access.enable }}
     {{"<!-- About Section -->" | safeHTML}}
     <section id="{{ i18n "about" | urlize }}" class="section about bg-gray">
         <div class="container">
@@ -6,18 +6,18 @@
                 <div class="col-md-7 col-sm-12 wow fadeInLeft">
                     <div class="content">
                         <div class="sub-heading">
-                        {{ with .Site.Params.about.heading }}
+                        {{ with .Site.Params.access.heading }}
                             <h3 style="font-family:inherit">{{ . }}</h3>
                         {{ end }}
                         </div>
-                        {{ with .Site.Params.about.description }}
+                        {{ with .Site.Params.access.description }}
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="about-slider">
-                        {{ range .Site.Params.about.sliderItem }}
+                        {{ range .Site.Params.access.sliderItem }}
                             <img src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
                         {{ end }}
                     </div>

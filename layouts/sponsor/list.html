@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+{{ partial "preloader.html" . }}
+ 
+<!--<div style="background-color: #8fbdd4;">-->
+	<div style='background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");'>
+{{ partial "navigation.html" . }}
+
+{{ partial "contact-sponsors.html" . }}
+
+</div>
+
+{{ partial "footer.html" . }}

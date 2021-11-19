@@ -12,7 +12,7 @@ customHead = ""
 
 # Navigation
 [params.navigation]
-logo = "images/logo-gc.png"
+logo = "/images/logo-gc.png"
 home = "Home"
 about = "About"
 service = "Our Team"
@@ -21,13 +21,13 @@ contact = "Contact"
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "images/header-bg.jpg"
+bg                = "/images/header-bg.jpg"
 title             ="" # "BRING YOUR PRODUCT TO LIGHT"
 subtitle          ="" # "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
 btnText           ="" # "Get Started"
 
 # counter
-disableCountdown  = false
+disableCountdown  = true
 countdownYear = "2022"
 countdownMonth = "6"
 countdownDay  = "21"
@@ -35,18 +35,32 @@ countdownDay  = "21"
 # About Section
 [params.about]
 enable      = true
+heading     = "About the Gonville and Caius May Ball"
+description = "To the right is currently a slideshow but this can be replaced with an image if we choose, or deleted entirely"
+
+[[params.about.sliderItem]]
+image   = "/images/about/1.jpg"
+[[params.about.sliderItem]]
+image   = "/images/about/2.jpg"
+[[params.about.sliderItem]]
+image   = "/images/about/3.jpg"
+[[params.about.sliderItem]]
+image   = "/images/about/2.jpg"
+
+# Access Section
+[params.access]
+enable      = true
 heading     = "Accessibility Pledge"
 description = "We pledge to [Insert Pledge Here]"
 
 #[[params.about.sliderItem]]
-#image   = "images/about/1.jpg"
+#image   = "/images/about/1.jpg"
 #[[params.about.sliderItem]]
-#image   = "images/about/2.jpg"
+#image   = "/images/about/2.jpg"
 #[[params.about.sliderItem]]
-#image   = "images/about/3.jpg"
+#image   = "/images/about/3.jpg"
 #[[params.about.sliderItem]]
-#image   = "images/about/2.jpg"
-
+#image   = "/images/about/2.jpg"
 
 # Service Section
 [params.service]
@@ -54,35 +68,35 @@ enable      = true
 title       = "Meet Our Committee"
 subtitle    = ""#"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "President"
-description = "Floris Blok"
-email = "mayball.president@cai.cam.ac.uk"
-delay   = "0s"
+#icon    = "tf-strategy"
+#title   = "President"
+#description = "Floris Blok"
+#email = "mayball.president@cai.cam.ac.uk"
+#delay   = "0s"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "VP"
-description = "Binu Perera"
-email = "mayball.vicepresident@cai.cam.ac.uk"
-delay   = "0.2s"
+#icon    = "tf-circle-compass"
+#title   = "VP"
+#description = "Binu Perera"
+#email = "mayball.vicepresident@cai.cam.ac.uk"
+#delay   = "0.2s"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Treasurer"
-description = "Edouard Barrier"
-email = "mayball.juniortreasurer@cai.cam.ac.uk"
-delay   = "0.4s"
+#icon    = "tf-anchor2"
+#title   = "Treasurer"
+#description = "Edouard Barrier"
+#email = "mayball.juniortreasurer@cai.cam.ac.uk"
+#delay   = "0.4s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -247,11 +261,58 @@ delay   = "3.6s"
 # Call to Action Section
 [params.cta]
 enable      = true
-bg          = "images/call-to-action.jpg"
+bg          = "/images/call-to-action.jpg"
 title       = "Media Enquiries"
 subtitle    = "For media enquiries, please email "
 
 [params.contact]
 enable      = true
 title       = "Vendors/Sponsors"
+subtitle    = "Are you interested in being a Vendor? Click "
+subtitle2    = "Are you interested in being a Sponsor? Click "
+
+
+[params.contactven]
+enable      = true
+title       = "Vendors"
 subtitle    = "Are you interested in being a Vendor or a Sponsor? Fill out this form and we'll get back to you soon!"
+
+[params.contactspon]
+enable      = true
+title       = "Sponsorship opportunities"
+
+[[params.contactspon.stline]]
+line = "The Gonville & Caius May Ball is one of the showpiece events of the Cambridge social calendar, gathering over a thousand students in the gorgeous setting of the Caius Old Courts. The event runs all through the night, with unlimited food, drink, activities, music and dancing for all our guests, be they students or alumni."
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "To create the highest quality ball possible for the most affordable price, we naturally seek out sponsors to partner with. There are three tiers of sponsorship available, although bespoke arrangements are very possible. In all cases you would have access to a huge community of talented, ambitious individuals."
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "Gold - from £4000"
+bold = "bold"
+
+[[params.contactspon.stline]]
+line = "Full page advertisement in the programme. Logo on website, post-ball video, wristband. Opportunity to contact students via mailing lists. Possibility of running a stall on the night. Strong visibility on the night. 6 tickets."
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "Silver - from £2000"
+bold = "bold"
+
+[[params.contactspon.stline]]
+line = "Full page advertisement in programme. Logo on website, post-ball video. Opportunity to contact students via mailing lists. Strong visibility on the night. 4 tickets."
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "Bronze - from £1000"
+bold = "bold"
+
+[[params.contactspon.stline]]
+line = "Half-page advertisement in programme. Logo on website. Strong visibility on the night. 2 tickets."
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "Either fill out this form and await a response, or contact us directly at mayball.juniortreasurer@cai.cam.ac.uk."
+bold = "normal"

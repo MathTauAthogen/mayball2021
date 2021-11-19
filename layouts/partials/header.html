@@ -21,10 +21,18 @@
     <link rel="stylesheet" href="{{ `css/responsive.css` | absURL }}">
 
     <style>
-    * {
-     font-family: themefisher-font;
+    *{
+      font-family: themefisher-font;
+      font-variant-ligatures: discretionary-ligatures;
+      font-feature-settings: 'kern', 'swsh' "liga1" on;
+    }
+    .bottom-space {
+       padding-top: 2cm;
     }
 
+    .show-white-space {
+        white-space: pre-wrap;
+    }
     </style>
 
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">

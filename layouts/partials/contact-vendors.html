@@ -1,0 +1,44 @@
+{{ if .Site.Params.contactven.enable }}
+    {{"<!-- Contact Section -->" | safeHTML}}
+    <section id="{{ i18n "contact" | urlize }}" class="section contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="block bottom-space">
+                        <div class="heading wow fadeInUp">
+                            {{ with .Site.Params.contactven.title }}
+                            <h2>{{ . }}</h2>
+                            {{ end }}
+                            {{ with .Site.Params.contactven.subtitle }}
+                                <p style="font-family:inherit">{{ . }}</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 offset-md-3">
+                    <div class="form-group">
+                        <form action="#" method="POST" data-netlify="true" name="vendorsponsor">
+                            <div class="input-field">
+                                <input type="text" class="form-control" placeholder="{{ i18n `yourName` }}" name="name">
+                            </div>
+                            <div class="input-field">
+                                <input type="email" class="form-control" placeholder="{{ i18n `emailAddress` }}" name="email">
+                            </div>
+                            <div class="input-field">
+                                <textarea class="form-control" placeholder="{{ i18n `yourMessage` }}" rows="3" name="message"></textarea>
+                            </div>
+                            <button class="btn btn-send" type="submit">{{ i18n `submit` }}</button>
+                        </form>
+
+                        <div id="success">
+                            <p>{{ i18n "contactMessageSuccess" }}</p>
+                        </div>
+                        <div id="error">
+                            <p>{{ i18n "contactMessageError" }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
