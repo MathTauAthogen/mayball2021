@@ -264,6 +264,7 @@ enable      = true
 bg          = "/images/call-to-action.jpg"
 title       = "Media Enquiries"
 subtitle    = "For media enquiries, please email "
+baseURL = "master--quirky-blackwell-88a617.netlify.app"
 
 [params.contact]
 enable      = true
