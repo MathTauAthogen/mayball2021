@@ -36,7 +36,7 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "To the right is currently a slideshow but this can be replaced with an image if we choose, or deleted entirely"
+description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food and drinks, from favourite restaurants, like Aromi, and word-class entertainment, like [insert ENTs] to [insert ENTs 2]."
 
 [[params.about.sliderItem]]
 image   = "/images/about/1.jpg"
@@ -276,7 +276,7 @@ subtitle2    = "Are you interested in being a Sponsor? Click "
 [params.contactven]
 enable      = true
 title       = "Vendors"
-subtitle    = "Are you interested in being a Vendor or a Sponsor? Fill out this form and we'll get back to you soon!"
+subtitle    = "Are you interested in being a Vendor? Fill out this form and we'll get back to you soon!"
 
 [params.contactspon]
 enable      = true

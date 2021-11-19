@@ -2,8 +2,12 @@
 
 {{ partial "preloader.html" . }}
         
+<div style="background-color: #eef4f0;">
+	<!--<div style='background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");'>-->
 {{ partial "navigation.html" . }}
 
 {{ partial "contact-vendors.html" . }}
+
+</div>
 
 {{ partial "footer.html" . }}
