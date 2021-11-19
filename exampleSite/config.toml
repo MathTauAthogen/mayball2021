@@ -16,7 +16,7 @@ logo = "/images/logo-gc.png"
 home = "Home"
 about = "About"
 service = "Our Team"
-contact = "Contact"
+contact = "Contact Us"
 
 # Hero Area
 [params.hero]
