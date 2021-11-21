@@ -1,41 +1,41 @@
 {{ if .Site.Params.about.enable }}
     {{"<!-- About Section -->" | safeHTML}}
     <span id = "about" style="position:absolute; bottom: 5cm"></span>
-    <section class="section about bg-gray">
+    <section class="section about bg-gray" style="background-color: #fff;">
         <div class="container">
             <div class="row">
-                <div class="hero-area" style="height: 20vh; margin-top: -2cm">
+                <div class="hero-area" style="height: 200px; margin-top: -100px">
                     <div class="col-sm-12 col-lg-10 wow zoomIn" style="width: 100vw;">
-                    <div class="block" style="background-color:#8fbdd4; color:#ea8334">
+                    <div class="block" style="background-color:#aec1c3; color:#bc9c87">
                         <div class="counter text-center">
                             <ul id="countdown_dashboard" data-year="{{ with .Site.Params.hero.countdownYear }} {{ . }}{{ end }}" data-month="{{ with .Site.Params.hero.countdownMonth }} {{ . }}{{ end }}" data-day="{{ with .Site.Params.hero.countdownDay }} {{ . }}{{ end }}">
                                 <li style="width:24%">
                                     <div class="dash days_dash">
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <div class="digit"style="color:#ea8334">0</div>
-                                        <span class="dash_title" style="color:#ea8334">{{i18n "days" }}</span>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <div class="digit"style="color:#bc9c87">0</div>
+                                        <span class="dash_title" style="color:#bc9c87">{{i18n "days" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:24%">
                                     <div class="dash hours_dash">
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <span class="dash_title" style="color:#ea8334">{{i18n "hours" }}</span>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <span class="dash_title" style="color:#bc9c87">{{i18n "hours" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:24%">
                                     <div class="dash minutes_dash">
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <span class="dash_title" style="color:#ea8334">{{i18n "minutes" }}</span>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <span class="dash_title" style="color:#bc9c87">{{i18n "minutes" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:24%">
                                     <div class="dash seconds_dash">
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <div class="digit" style="color:#ea8334">0</div>
-                                        <span class="dash_title" style="color:#ea8334">{{i18n "seconds" }}</span>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <div class="digit" style="color:#bc9c87">0</div>
+                                        <span class="dash_title" style="color:#bc9c87">{{i18n "seconds" }}</span>
                                     </div>
                                 </li>
                             </ul>

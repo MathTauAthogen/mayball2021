@@ -7,30 +7,30 @@
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
             <ul class="nav navbar-nav menu" id="top-nav">
                 <li class="nav-item active" style="float:left">
-                    <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
+                    <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
                     </a>
                 </li>
                 {{ if .Site.Params.about.enable }}
                     <li class="nav-item" style="float:left">
-                        <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-
-                {{ if .Site.Params.service.enable }}
-                    <li class="nav-item active" style="float:right">
-                        <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
-                            {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
 
                 {{ if .Site.Params.contact.enable }}
                     <li class="nav-item" style="float:right; margin-right: 0px;">
-                        <a style="color:#8aaa79" class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
                             {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+
+                {{ if .Site.Params.service.enable }}
+                    <li class="nav-item active" style="float:right">
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
+                            {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
