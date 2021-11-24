@@ -14,17 +14,30 @@ $(document).ready(function () {
         scrollSpeed: 0
     });
 
+    var scroll = $(window).scrollTop();
+    //console.log(scroll);
+    if (scroll > 20) {
+        //console.log('a');
+        $(".navigation").addClass("animated");
+        $(".navbar-brand").addClass("animated");
+    } else {
+        //console.log('a');
+        $(".navigation").removeClass("animated");
+        $(".navbar-brand").removeClass("animated");
+    }
 
     //animated header class
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         //console.log(scroll);
-        if (scroll > 500) {
+        if (scroll > 20) {
             //console.log('a');
             $(".navigation").addClass("animated");
+            $(".navbar-brand").addClass("animated");
         } else {
             //console.log('a');
             $(".navigation").removeClass("animated");
+            $(".navbar-brand").removeClass("animated");
         }
     });
 
