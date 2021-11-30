@@ -588,6 +588,16 @@ a:active {
   display: none;
 }
 
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
 footer {
   text-align: center;
   background: #272727;

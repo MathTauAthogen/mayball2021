@@ -1,10 +1,7 @@
 <div class="container">
-    <nav class="navbar navbar-fixed-top  navigation " id="top-nav">
+    <nav class="navbar navbar-fixed-top   normal-nav" id="top-nav">
         
-        <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <i class="tf-ion-android-menu"></i>
-        </button>
-        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+        <div class="" id="">
             <ul class="nav navbar-nav menu" id="top-nav">
                 <li class="nav-item active" style="float:left">
                     <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
@@ -35,11 +32,56 @@
                     </li>
                 {{ end }}
 
-                                <a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
+                <a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
                 {{ with .Site.Params.navigation.logo }}
                 <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
                 <img src="{{ . }}" alt="logo" style="width:150px; margin-right: auto; margin-left: auto; display: block;">
                 {{ end }}
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-fixed-top  mobile-nav" id="top-nav" style="visibility: visible;">
+        
+            <div class="menu-item" >
+            <svg viewBox="0 0 100 80" width="40" height="40">
+              <rect width="100" height="20" fill="#aec1c3"></rect>
+              <rect y="30" width="100" height="20" fill="#aec1c3"></rect>
+              <rect y="60" width="100" height="20" fill="#aec1c3"></rect>
+            </svg>
+            <ul class="nav navbar-nav menu-list vertical-menu" id="top-nav" style="display:none;background-color:white">
+                <center><li style="background-color:white">
+                    <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
+                        {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
+                    </a>
+                </li></center>
+
+                {{ if .Site.Params.about.enable }}
+                    <center><li>
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
+                            {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
+                        </a>
+                    </li></center>
+                {{ end }}
+
+                {{ if .Site.Params.contact.enable }}
+                    <center><li>
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
+                            {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
+                        </a>
+                    </li></center>
+                {{ end }}
+
+                {{ if .Site.Params.service.enable }}
+                    <center><li>
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
+                            {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
+                        </a>
+                    </li></center>
+                {{ end }}
+
+                <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
                 </a>
             </ul>
         </div>

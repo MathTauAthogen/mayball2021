@@ -41,6 +41,39 @@ $(document).ready(function () {
         }
     });
 
+    $('.menu-item').click(function(){
+        if ($('.menu-list').css('display') == 'none'){
+            $('.menu-list').css('display', 'block');
+        }
+        else if ($('.menu-list').css('display') == 'block'){
+            $('.menu-list').css('display', 'none');
+        }
+    });
+
+        var scroll = document.body.clientWidth;
+        //console.log(scroll);
+        console.log(scroll)
+        if (scroll < 990) {
+            //console.log('a');
+            $(".normal-nav").css("display","none");
+            $(".mobile-nav").css("display","block");
+        } else {
+            $(".normal-nav").css("display","block");
+            $(".mobile-nav").css("display","none");
+        }
+
+    $(window).resize(function () {
+        var scroll = document.body.clientWidth;
+        //console.log(scroll);
+        if (scroll < 990) {
+            //console.log('a');
+            $(".normal-nav").css("display","none");
+            $(".mobile-nav").css("display","block");
+        } else {
+            $(".normal-nav").css("display","block");
+            $(".mobile-nav").css("display","none");
+        }
+    });
     
 
     $(".about-slider").owlCarousel({

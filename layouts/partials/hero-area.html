@@ -1,6 +1,6 @@
 {{ if .Site.Params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
-    <section id="{{ i18n `home` | urlize }}" class="hero-area" style='height: 100vh;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-size:100% auto;background-repeat: no-repeat;'>
+    <section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-position: center;height: 100vh;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-size:100% auto;background-repeat: no-repeat;'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6">
@@ -31,7 +31,7 @@
                             <ul id="countdown_dashboard" data-year="{{ with .Site.Params.hero.countdownYear }} {{ . }}{{ end }}" data-month="{{ with .Site.Params.hero.countdownMonth }} {{ . }}{{ end }}" data-day="{{ with .Site.Params.hero.countdownDay }} {{ . }}{{ end }}">
                                 <li>
                                     <div class="dash days_dash">
-                                        <div class="digit" style="color:#e8b381">0</div>
+                                        <div class="digit" style="color:#e8b381;">0</div>
                                         <div class="digit" style="color:#e8b381">0</div>
                                         <div class="digit"style="color:#e8b381">0</div>
                                         <span class="dash_title" style="color:#e8b381">{{i18n "days" }}</span>
