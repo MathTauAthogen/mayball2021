@@ -10,7 +10,8 @@
                             <h2>{{ . }}</h2>
                             {{ end }}
                             {{ range .Site.Params.contactspon.stline }}
-                                <p style="font-family:inherit;font-weight: {{ .bold }}">{{ .line }}</p>
+                                <p style="font-family:inherit;font-weight: {{ .bold }};font-size:{{ .size }}">{{ .line }}</p>
+                                <br/>
                             {{ end }}
                             {{ with .Site.Params.contactspon.subtitle }}
                                 <p style="font-family:inherit">{{ . }}</p>
