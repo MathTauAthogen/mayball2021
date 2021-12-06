@@ -3,9 +3,9 @@
     <span id = "about" style="position:absolute; bottom: 5cm"></span>
     <section class="section about bg-gray" style="background-color: #fff;">
         <div class="container" style="width:100%">
-            <div class="row">
-                <center style="position:relative"><div class="hero-area" style="width: 80%;height: 50px; margin-top: -75px;display:block">
-                    <center><div class="col-sm-12 col-lg-10 wow zoomIn" style="width: 80vw; display:block;margin: auto;">
+            <div class="row" style="float:none">
+                <center style="float:none;position:relative;min-height:350px"><div class="hero-area" style="width: 80%;height: 50px; margin-top: -75px;display:block">
+                    <div class="col-sm-12 col-lg-10 wow zoomIn" style="width: 80vw; display:block;margin: auto;">
                     <div class="block" style="background-color:#aec1c3; color:#bc9c87;height:10%">
                         <div class="counter text-center">
                             <ul id="countdown_dashboard" data-year="{{ with .Site.Params.hero.countdownYear }} {{ . }}{{ end }}" data-month="{{ with .Site.Params.hero.countdownMonth }} {{ . }}{{ end }}" data-day="{{ with .Site.Params.hero.countdownDay }} {{ . }}{{ end }}">
@@ -41,9 +41,9 @@
                             </ul>
                         </div>
                     </div>
-                </div></center>
+                </div>
             </div></center>
-                <center><div class="col-sm-12 wow fadeInLeft">
+                <center><div class="col-sm-12 wow fadeInLeft" style="overflow:hidden;width:100%;position:relative;float:none;display:block">
                     <div class="content">
                         <div class="sub-heading">
                         {{ with .Site.Params.about.heading }}
