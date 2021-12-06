@@ -36,16 +36,16 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food and drinks, from favourite restaurants, like Aromi, and word-class entertainment, like [insert ENTs] to [insert ENTs 2]."
+description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food and drinks, from favourite restaurants, like Aromi, and word-class entertainment."
 
-[[params.about.sliderItem]]
-image   = "/images/about/1.jpg"
-[[params.about.sliderItem]]
-image   = "/images/about/2.jpg"
-[[params.about.sliderItem]]
-image   = "/images/about/3.jpg"
-[[params.about.sliderItem]]
-image   = "/images/about/2.jpg"
+#[[params.about.sliderItem]]
+#image   = "/images/about/1.jpg"
+#[[params.about.sliderItem]]
+#image   = "/images/about/2.jpg"
+#[[params.about.sliderItem]]
+#image   = "/images/about/3.jpg"
+#[[params.about.sliderItem]]
+#image   = "/images/about/2.jpg"
 
 # Access Section
 [params.access]
@@ -106,7 +106,7 @@ icon    = "tf-globe"
 title   = "Staff"
 description = "Aysha Iqbal"
 email = "mayball.headofstaff@cai.cam.ac.uk"
-delay   = "0.6s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -116,7 +116,7 @@ icon    = "tf-anchor2"
 title   = "CD"
 description = "Emma Bryan"
 email = "mayball.creativedirector@cai.cam.ac.uk"
-delay   = "0.8s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -126,7 +126,7 @@ icon    = "tf-strategy"
 title   = "Secretary"
 description = "Arjun Sharma"
 email = "mayball.secretary@cai.cam.ac.uk"
-delay   = "1.0s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -136,7 +136,7 @@ icon    = "tf-circle-compass"
 title   = "Head of Ops"
 description = "Rosanna Mutsaars"
 email = "mayball.headofoperations@cai.cam.ac.uk"
-delay   = "1.2s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -146,7 +146,7 @@ icon    = "tf-globe"
 title   = "Creative 1"
 description = "Audrey Lee"
 email = "mayball.creative@cai.cam.ac.uk"
-delay   = "1.4s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -156,7 +156,7 @@ icon    = "tf-strategy"
 title   = "Creative 2"
 description = "Parth Shimpi"
 email = "mayball.creative@cai.cam.ac.uk"
-delay   = "1.6s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -166,7 +166,7 @@ icon    = "tf-circle-compass"
 title   = "Logistics 1"
 description = "Morgan Duval Richards"
 email = "mayball.operations@cai.cam.ac.uk"
-delay   = "1.8s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -176,7 +176,7 @@ icon    = "tf-anchor2"
 title   = "Logistics 2"
 description = "Owain Bates"
 email = "mayball.operations@cai.cam.ac.uk"
-delay   = "2.0s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -186,7 +186,7 @@ icon    = "tf-globe"
 title   = "Publicity"
 description = "Scarlett Pitt"
 email = "mayball.publicity@cai.cam.ac.uk"
-delay   = "2.2s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -196,7 +196,7 @@ icon    = "tf-strategy"
 title   = "Web Officer"
 description = "William Qin"
 email = "mayball.web@cai.cam.ac.uk"
-delay   = "2.4s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -206,7 +206,7 @@ icon    = "tf-circle-compass"
 title   = "Ents 1"
 description = "Stan MacMurray"
 email = "mayball.ents@cai.cam.ac.uk"
-delay   = "2.6s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -216,7 +216,7 @@ icon    = "tf-globe"
 title   = "Ents 2"
 description = "Emily Herbert"
 email = "mayball.ents@cai.cam.ac.uk"
-delay   = "2.8s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -226,7 +226,7 @@ icon    = "tf-anchor2"
 title   = "Food"
 description = "Kate Aspbury"
 email = "mayball.food@cai.cam.ac.uk"
-delay   = "3.0s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -236,7 +236,7 @@ icon    = "tf-strategy"
 title   = "Drink"
 description = "Alexandria Smith"
 email = "mayball.drinks@cai.cam.ac.uk"
-delay   = "3.2s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -246,7 +246,7 @@ icon    = "tf-circle-compass"
 title   = "Ticketing"
 description = "Vanessa Chen"
 email = "mayball.ticketing@cai.cam.ac.uk"
-delay   = "3.4s"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -256,7 +256,7 @@ icon    = "tf-anchor2"
 title   = "Technical"
 description = "Javier Sanchez-Bonilla Martinez"
 email = "mayball.technical@cai.cam.ac.uk"
-delay   = "3.6s"
+delay   = "0s"
 
 # Call to Action Section
 [params.cta]
@@ -269,8 +269,8 @@ baseURL = "master--quirky-blackwell-88a617.netlify.app"
 [params.contact]
 enable      = true
 title       = "Vendors/Sponsors"
-subtitle    = "Are you interested in being a Vendor? Click "
-subtitle2    = "Are you interested in being a Sponsor? Click "
+subtitle    = "Are you interested in being a Vendor? "
+subtitle2    = "Are you interested in being a Sponsor? "
 
 
 [params.contactven]

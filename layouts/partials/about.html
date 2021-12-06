@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="hero-area" style="height: 200px; margin-top: -100px">
-                    <div class="col-sm-12 col-lg-10 wow zoomIn" style="width: 100vw;">
+                    <div class="col-sm-12 col-lg-10 wow zoomIn" style="width: 61vw;">
                     <div class="block" style="background-color:#aec1c3; color:#bc9c87">
                         <div class="counter text-center">
                             <ul id="countdown_dashboard" data-year="{{ with .Site.Params.hero.countdownYear }} {{ . }}{{ end }}" data-month="{{ with .Site.Params.hero.countdownMonth }} {{ . }}{{ end }}" data-day="{{ with .Site.Params.hero.countdownDay }} {{ . }}{{ end }}">
@@ -14,28 +14,28 @@
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
                                         <div class="digit"style="color:#bc9c87;font-size:3vw">0</div>
-                                        <span class="dash_title" style="color:#bc9c87">{{i18n "days" }}</span>
+                                        <span class="dash_title" style="color:#bc9c87;font-size:2vw">{{i18n "days" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:24%">
                                     <div class="dash hours_dash">
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
-                                        <span class="dash_title" style="color:#bc9c87">{{i18n "hours" }}</span>
+                                        <span class="dash_title" style="color:#bc9c87;font-size:2vw">{{i18n "hours" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:24%">
                                     <div class="dash minutes_dash">
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
-                                        <span class="dash_title" style="color:#bc9c87">{{i18n "minutes" }}</span>
+                                        <span class="dash_title" style="color:#bc9c87;font-size:2vw">{{i18n "minutes" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:24%">
                                     <div class="dash seconds_dash">
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
                                         <div class="digit" style="color:#bc9c87;font-size:3vw">0</div>
-                                        <span class="dash_title" style="color:#bc9c87">{{i18n "seconds" }}</span>
+                                        <span class="dash_title" style="color:#bc9c87;font-size:2vw">{{i18n "seconds" }}</span>
                                     </div>
                                 </li>
                             </ul>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                <center><div class="col-sm-12 wow fadeInLeft">
                     <div class="content">
                         <div class="sub-heading">
                         {{ with .Site.Params.about.heading }}
@@ -54,14 +54,7 @@
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
                     </div>
-                </div>
-                <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="about-slider">
-                        {{ range .Site.Params.about.sliderItem }}
-                            <img src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
-                        {{ end }}
-                    </div>
-                </div>
+                </div></center>
             </div>
         </div>
     </section>
