@@ -36,7 +36,7 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food and drinks, from favourite restaurants, like Aromi, and word-class entertainment."
+description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food and drinks, from favourite restaurants, like Aromi, and world-class entertainment."
 
 #[[params.about.sliderItem]]
 #image   = "/images/about/1.jpg"

@@ -60,13 +60,12 @@
 
     <nav class="navbar navbar-fixed-top  mobile-nav" id="top-nav" style="visibility: visible;">
         
-            <div class="menu-item" >
-            <svg viewBox="0 0 100 80" width="40" height="40">
+            <svg class="hmbgrbtn" viewBox="0 0 100 80" width="40" height="40">
               <rect width="100" height="20" fill="#bc9c87"></rect>
               <rect y="30" width="100" height="20" fill="#bc9c87"></rect>
               <rect y="60" width="100" height="20" fill="#bc9c87"></rect>
             </svg>
-            <ul class="nav navbar-nav menu-list vertical-menu" id="top-nav" style="display:none;background-color:white">
+            <ul class="nav navbar-nav menu-list vertical-menu" id="top-nav" style="display:none;background-color:white;width:100%">
                 <center><li style="background-color:white">
                     <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
@@ -80,6 +79,23 @@
                         </a>
                     </li></center>
                 {{ end }}
+
+                                {{ if .Site.Params.contact.enable }}
+                    <center><li>
+                        <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/tickets">
+                            Tickets
+                        </a>
+                    </li></center>
+                {{ end }}
+
+                {{ if .Site.Params.service.enable }}
+                    <center><li>
+                        <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/recruit">
+                            Recruitment
+                        </a>
+                    </li></center>
+                {{ end }}
+
 
                 {{ if .Site.Params.contact.enable }}
                     <center><li>

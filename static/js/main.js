@@ -41,7 +41,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.menu-item').click(function(){
+    $('.hmbgrbtn').click(function(){
         if ($('.menu-list').css('display') == 'none'){
             $('.menu-list').css('display', 'block');
         }

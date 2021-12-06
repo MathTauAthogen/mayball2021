@@ -50,7 +50,7 @@
 
 
                 <!--<a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">-->
-                <center><a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  100%; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
+                <center><a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
                 {{ with .Site.Params.navigation.logo }}
                 <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
                 <img src="{{ . }}" alt="logo" style="width: 150px; margin-right: auto; margin-left: auto; display: block;">
@@ -62,13 +62,12 @@
 
     <nav class="navbar navbar-fixed-top  mobile-nav" id="top-nav" style="visibility: visible;">
         
-            <div class="menu-item" >
-                <svg viewBox="0 0 100 80" width="40" height="40">
+                <svg viewBox="0 0 100 80" width="40" height="40" class="hmbgrbtn">
               <rect width="100" height="20" fill="#aec1c3"></rect>
               <rect y="30" width="100" height="20" fill="#aec1c3"></rect>
               <rect y="60" width="100" height="20" fill="#aec1c3"></rect>
             </svg>
-                <center><a class="navbar-brand float-none" style="top: -50px;margin: auto; margin-right: auto; width:  100%; margin-left: auto; display:inline-block;position:relative" href="{{ .Site.BaseURL }}">
+                <center><a class="navbar-brand float-none" style="top: -50px;margin: auto; margin-right: auto; width:  150px; margin-left: auto; display:inline-block;position:relative" href="{{ .Site.BaseURL }}">
                 {{ with .Site.Params.navigation.logo }}
                 <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
                 <img src="{{ . }}" alt="logo" style="width: 150px; margin-right: auto; margin-left: auto; display: block;">
@@ -86,6 +85,22 @@
                     <center><li>
                         <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
+                        </a>
+                    </li></center>
+                {{ end }}
+
+                {{ if .Site.Params.contact.enable }}
+                    <center><li>
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}/tickets">
+                            Tickets
+                        </a>
+                    </li></center>
+                {{ end }}
+
+                {{ if .Site.Params.service.enable }}
+                    <center><li>
+                        <a style="color:#aec1c3" class="nav-link" href="{{ .Site.BaseURL }}/recruit">
+                            Recruitment
                         </a>
                     </li></center>
                 {{ end }}
