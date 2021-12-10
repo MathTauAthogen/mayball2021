@@ -36,7 +36,7 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food and drinks, from favourite restaurants, like Aromi, and world-class entertainment."
+description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food, unlimited drink, and unforgettable ents."
 
 #[[params.about.sliderItem]]
 #image   = "/images/about/1.jpg"
@@ -113,7 +113,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-anchor2"
-title   = "CD"
+title   = "Creative Director"
 description = "Emma Bryan"
 email = "mayball.creativedirector@cai.cam.ac.uk"
 delay   = "0s"
@@ -143,7 +143,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-globe"
-title   = "Creative 1"
+title   = "Creative"
 description = "Audrey Lee"
 email = "mayball.creative@cai.cam.ac.uk"
 delay   = "0s"
@@ -153,7 +153,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-strategy"
-title   = "Creative 2"
+title   = "Creative"
 description = "Parth Shimpi"
 email = "mayball.creative@cai.cam.ac.uk"
 delay   = "0s"
@@ -163,7 +163,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-circle-compass"
-title   = "Logistics 1"
+title   = "Logistics"
 description = "Morgan Duval Richards"
 email = "mayball.operations@cai.cam.ac.uk"
 delay   = "0s"
@@ -173,7 +173,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-anchor2"
-title   = "Logistics 2"
+title   = "Logistics"
 description = "Owain Bates"
 email = "mayball.operations@cai.cam.ac.uk"
 delay   = "0s"
@@ -193,7 +193,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-strategy"
-title   = "Web Officer"
+title   = "Web"
 description = "William Qin"
 email = "mayball.web@cai.cam.ac.uk"
 delay   = "0s"
@@ -203,7 +203,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-circle-compass"
-title   = "Ents 1"
+title   = "Musical Ents"
 description = "Stan MacMurray"
 email = "mayball.ents@cai.cam.ac.uk"
 delay   = "0s"
@@ -213,7 +213,7 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-globe"
-title   = "Ents 2"
+title   = "Non-musical Ents"
 description = "Emily Herbert"
 email = "mayball.ents@cai.cam.ac.uk"
 delay   = "0s"

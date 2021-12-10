@@ -3,24 +3,19 @@
     <section id="{{ i18n "about" | urlize }}2" class="section about bg-gray" style="background-color: #fff;">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                <div class="col-md-7 col-sm-12 wow fadeInLeft" style="width:100%">
                     <div class="content">
                         <div class="sub-heading">
                         {{ with .Site.Params.access.heading }}
                             <h3 style="font-family:inherit">{{ . }}</h3>
                         {{ end }}
                         </div>
-                        {{ with .Site.Params.access.description }}
-                            <p>{{ . | markdownify }}</p>
-                        {{ end }}
-                    </div>
-                </div>
-                <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="about-slider">
-                        {{ range .Site.Params.access.sliderItem }}
-                            <img src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
-                        {{ end }}
-                    </div>
+                            <p>There is wheelchair access. There is basic seating, an accessible toilet, a gender neutral toilet, and a hearing loop. This isn't a BSL interpreter, general car parking, or blue badge parking. There isn't a designated quiet space, although the Chapel is designated as a chill-out area, with less noise and visual stimulation.</p>
+                            <br/>
+                            <p>Please note that the entrance to the Senior Parlour is only 0.7 metres wide, and may therefore present difficulties to attendees requiring a wheelchair - although this is one of many rooms being used for the Ball, and the others are all accessible.</p>
+                            <br/>
+                            <p>For any further accessibility enquires please contact <a href = "mailto:mayball.operations@cai.cam.ac.uk">mayball.operations@cai.cam.ac.uk</a></p>
+                        </div>
                 </div>
             </div>
         </div>
