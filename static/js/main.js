@@ -58,11 +58,12 @@ $(document).ready(function () {
             $(".normal-nav").css("display","none");
             $(".mobile-nav").css("display","block");
             $(".countdownWidget").css("width","80vw");
-            $(".digit").css("font-size","45px");
-            $(".dash_title").css("font-size","4vw");
+            $(".digit").css("font-size","40px");
+            $(".dash_title").css("font-size","3vw");
             $(".dash_move_3").css("left","-10px");
             $(".dash_move_2").css("left","-20px");
             $(".dash_move_1").css("left","-25px");
+            $(".pushdown").css("min-height","325px");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
@@ -72,6 +73,7 @@ $(document).ready(function () {
             $(".dash_move_3").css("left","0");
             $(".dash_move_2").css("left","0px");
             $(".dash_move_1").css("left","-20px");
+            $(".pushdown").css("min-height","200px");
         }
 
     $(window).resize(function () {
@@ -82,11 +84,12 @@ $(document).ready(function () {
             $(".normal-nav").css("display","none");
             $(".mobile-nav").css("display","block");
             $(".countdownWidget").css("width","80vw");
-            $(".digit").css("font-size","45px");
-            $(".dash_title").css("font-size","4vw");
+            $(".digit").css("font-size","40px");
+            $(".dash_title").css("font-size","3vw");
             $(".dash_move_3").css("left","-10px");
             $(".dash_move_2").css("left","-20px");
             $(".dash_move_1").css("left","-25px");
+            $(".pushdown").css("min-height","325px");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
@@ -96,6 +99,7 @@ $(document).ready(function () {
             $(".dash_move_3").css("left","0");
             $(".dash_move_2").css("left","0px");
             $(".dash_move_1").css("left","-20px");
+            $(".pushdown").css("min-height","200px");
         }
     });
     
