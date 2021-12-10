@@ -57,9 +57,21 @@ $(document).ready(function () {
             //console.log('a');
             $(".normal-nav").css("display","none");
             $(".mobile-nav").css("display","block");
+            $(".countdownWidget").css("width","80vw");
+            $(".digit").css("font-size","45px");
+            $(".dash_title").css("font-size","4vw");
+            $(".dash_move_3").css("left","-10px");
+            $(".dash_move_2").css("left","-20px");
+            $(".dash_move_1").css("left","-25px");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
+            $(".countdownWidget").css("width","60vw");
+            $(".digit").css("font-size","4vw");
+            $(".dash_title").css("font-size","3vw");
+            $(".dash_move_3").css("left","0");
+            $(".dash_move_2").css("left","0px");
+            $(".dash_move_1").css("left","-20px");
         }
 
     $(window).resize(function () {
@@ -69,9 +81,21 @@ $(document).ready(function () {
             //console.log('a');
             $(".normal-nav").css("display","none");
             $(".mobile-nav").css("display","block");
+            $(".countdownWidget").css("width","80vw");
+            $(".digit").css("font-size","45px");
+            $(".dash_title").css("font-size","4vw");
+            $(".dash_move_3").css("left","-10px");
+            $(".dash_move_2").css("left","-20px");
+            $(".dash_move_1").css("left","-25px");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
+            $(".countdownWidget").css("width","60vw");
+            $(".digit").css("font-size","4vw");
+            $(".dash_title").css("font-size","3vw");
+            $(".dash_move_3").css("left","0");
+            $(".dash_move_2").css("left","0px");
+            $(".dash_move_1").css("left","-20px");
         }
     });
     
