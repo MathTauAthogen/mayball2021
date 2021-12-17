@@ -38,7 +38,7 @@ $(document).ready(function () {
             //console.log('a');
             $(".navigation").removeClass("animated");
             $(".navbar-brand").removeClass("animated");
-        }
+        }   
     });
 
     $('.hmbgrbtn').click(function(){
@@ -75,6 +75,11 @@ $(document).ready(function () {
             $(".dash_move_1").css("left","-20px");
             $(".pushdown").css("min-height","200px");
         }
+        if (scroll > 1980) {
+            //console.log('a');
+            $(".digit").css("font-size", "70px");
+            $(".dash_title").css("font-size", "58px");
+        }
 
     $(window).resize(function () {
         var scroll = document.body.clientWidth;
@@ -100,6 +105,11 @@ $(document).ready(function () {
             $(".dash_move_2").css("left","0px");
             $(".dash_move_1").css("left","-20px");
             $(".pushdown").css("min-height","200px");
+        }
+        if (scroll > 1980) {
+            //console.log('a');
+            $(".digit").css("font-size", "70px");
+            $(".dash_title").css("font-size", "58px");
         }
     });
     
