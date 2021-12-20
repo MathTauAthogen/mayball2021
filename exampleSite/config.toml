@@ -36,7 +36,7 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "The Gonville and Caius May Ball is a lavish event held at the end of the year after exams where students can experience a night they will never forget! May Balls are large events which offer delicious food, unlimited drink, and unforgettable ents."
+description = "The Gonville and Caius May Ball is a lavish event held in June to celebrate the end of the year. The Caius may ball is an all inclusive experience where the best drink, food, music and entertainment in Cambridge will be on display for you to enjoy. Join us on the 21st of June 2022 for the return of the Gonville and Caius May Ball, sure to be a night you’ll never forget."
 
 #[[params.about.sliderItem]]
 #image   = "/images/about/1.jpg"
@@ -300,7 +300,7 @@ size = "20px"
 bold = "bold"
 
 [[params.contactspon.stline]]
-line = "Full page advertisement in the programme. Logo on website, post-ball video, wristband. Opportunity to contact students via mailing lists. Possibility of running a stall on the night. Strong visibility on the night. 6 tickets."
+line = "Full page advertisement in the programme. Logo on website, post-ball video, wristband. Able to contact students via mailing lists. Allowed to run a stall on the night. Strong visibility on the night. Possibility of buying up to 6 tickets."
 bold = "normal"
 
 [[params.contactspon.stline]]
@@ -313,7 +313,7 @@ size = "20px"
 bold = "bold"
 
 [[params.contactspon.stline]]
-line = "Full page advertisement in programme. Logo on website, post-ball video. Opportunity to contact students via mailing lists. Strong visibility on the night. 4 tickets."
+line = "Full page advertisement in programme. Logo on website, post-ball video. Able to contact students via mailing lists. Strong visibility on the night. Possibility of buying 4 tickets."
 bold = "normal"
 
 [[params.contactspon.stline]]
@@ -326,7 +326,7 @@ size = "20px"
 bold = "900"
 
 [[params.contactspon.stline]]
-line = "Half-page advertisement in programme. Logo on website. Strong visibility on the night. 2 tickets."
+line = "Half-page advertisement in programme. Logo on website. Strong visibility on the night. Possibility of buying 2 tickets."
 bold = "normal"
 
 [[params.contactspon.stline]]

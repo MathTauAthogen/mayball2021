@@ -8,49 +8,51 @@
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
                     </a>
                 </li>
-                {{ if .Site.Params.about.enable }}
                     <li class="nav-item" style="float:left">
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
                         </a>
                     </li>
-                {{ end }}
 
-                    {{ if .Site.Params.contact.enable }}
                     <li class="nav-item" style="float:left; margin-right: 0px;">
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/tickets">
                             Tickets
                         </a>
                     </li>
-                {{ end }}
 
-                {{ if .Site.Params.service.enable }}
+                    <li class="nav-item" style="float:left; margin-right: 0px;">
+                        <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/sponsor">
+                            Sponsorship
+                        </a>
+                    </li>
+
                     <li class="nav-item active" style="float:right">
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/recruit">
                             Recruitment
                         </a>
                     </li>
-                {{ end }}
 
-                {{ if .Site.Params.contact.enable }}
                     <li class="nav-item" style="float:right; margin-right: 0px;">
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
                             {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
                         </a>
                     </li>
-                {{ end }}
-
-                {{ if .Site.Params.service.enable }}
+            
                     <li class="nav-item active" style="float:right">
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
                             {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
                         </a>
                     </li>
-                {{ end }}
+
+                    <li class="nav-item" style="float:right">
+                        <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/vendor">
+                            Vendors
+                        </a>
+                    </li>
 
 
                 <!--<a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">-->
-                <center style="position:absolute; margin:auto;left: 0; right: 0; margin-left: auto; margin-right: auto; width: 150px;top:30px"><a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
+                <center style="position:absolute; margin:auto;left: 0; right: 0; margin-left: auto; margin-right: auto; width: 150px; top: 50px"><a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
                 {{ with .Site.Params.navigation.logo }}
                 <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
                 <img src="{{ . }}" alt="logo" style="width: 150px; margin-right: auto; margin-left: auto; display: block;">
@@ -67,7 +69,7 @@
               <rect y="30" width="100" height="20" fill="#bc9c87"></rect>
               <rect y="60" width="100" height="20" fill="#bc9c87"></rect>
             </svg>
-                <center style="position:absolute; margin:auto;left: 0; right: 0; margin-left: auto; margin-right: auto; width: 150px;top: 35px"><a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
+                <center style="position:absolute; margin:auto;left: 0; right: 0; margin-left: auto; margin-right: auto; width: 150px;top: 60px"><a class="navbar-brand float-none" style="margin: auto; margin-right: auto; width:  150px; margin-left: auto;  display:block;" href="{{ .Site.BaseURL }}">
                 {{ with .Site.Params.navigation.logo }}
                 <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
                 <img src="{{ . }}" alt="logo" style="width: 150px; margin-right: auto; margin-left: auto; display: block;">
@@ -81,45 +83,48 @@
                     </a>
                 </li></center>
 
-                {{ if .Site.Params.about.enable }}
                     <center><li>
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "about" | urlize }}">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
                         </a>
                     </li></center>
-                {{ end }}
-
-                {{ if .Site.Params.contact.enable }}
+                
                     <center><li>
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/tickets">
                             Tickets
                         </a>
                     </li></center>
-                {{ end }}
-
-                {{ if .Site.Params.service.enable }}
+                
+                    <center><li>
+                        <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/sponsor">
+                            Sponsorship
+                        </a>
+                    </li></center>
+                
                     <center><li>
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/recruit">
                             Recruitment
                         </a>
                     </li></center>
-                {{ end }}
-
-                {{ if .Site.Params.contact.enable }}
+                
                     <center><li>
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
                             {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
                         </a>
                     </li></center>
-                {{ end }}
-
-                {{ if .Site.Params.service.enable }}
+                
                     <center><li>
                         <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
                             {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
                         </a>
                     </li></center>
-                {{ end }}
+                
+                    <center><li>
+                        <a style="color:#bc9c87" class="nav-link" href="{{ .Site.BaseURL }}/vendor">
+                            Vendors
+                        </a>
+                    </li></center>
+
 
 
                 <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->

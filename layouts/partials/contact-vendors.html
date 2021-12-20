@@ -1,11 +1,11 @@
     {{ if .Site.Params.contactven.enable }}
     {{"<!-- Contact Section -->" | safeHTML}}
-    <section id="{{ i18n "contact" | urlize }}" class="section contact">
+    <section id="{{ i18n "contact" | urlize }}" class="section contact" style="background-color: #aec1c3;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="block bottom-space">
-                        <div class="heading wow fadeInUp">
+                        <div class="heading wow fadeInUp" style="top:20px;position:relative">
                             {{ with .Site.Params.contactven.title }}
                             <h2>{{ . }}</h2>
                             {{ end }}
