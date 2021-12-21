@@ -42,10 +42,20 @@ $(document).ready(function () {
     });
 
     $('.hmbgrbtn').click(function(){
+        var scroll = $(window).scrollTop();
         if ($('.menu-list').css('display') == 'none'){
+            if (scroll < 20) {
+            //console.log('a');
+            $(".navbar-brand").addClass("animated");
+            }
             $('.menu-list').css('display', 'block');
+
         }
         else if ($('.menu-list').css('display') == 'block'){
+                        if (scroll < 20) {
+            //console.log('a');
+            $(".navbar-brand").removeClass("animated");
+            }
             $('.menu-list').css('display', 'none');
         }
     });
