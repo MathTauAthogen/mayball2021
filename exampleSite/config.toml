@@ -88,7 +88,7 @@ subtitle    = ""#"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
 #email = "mayball.vicepresident@cai.cam.ac.uk"
 #delay   = "0.2s"
 
-#[[params.service.serviceItem]]
+[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
