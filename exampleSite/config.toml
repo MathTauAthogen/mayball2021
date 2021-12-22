@@ -36,7 +36,7 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "The Gonville and Caius May Ball is a lavish event held in June to celebrate the end of the year. The Caius may ball is an all inclusive experience where the best drink, food, music and entertainment in Cambridge will be on display for you to enjoy. Join us on the 21st of June 2022 for the return of the Gonville and Caius May Ball, sure to be a night you’ll never forget."
+description = "The Gonville and Caius May Ball is a lavish and sought-after event held in June to celebrate the end of the year. Spanning the whole of the college, the Caius May Ball is an all inclusive experience where the best drink, food, music and entertainment in Cambridge will be on display for you to enjoy. Join us on the 21st of June 2022 for the return of the Gonville and Caius May Ball, sure to be a night you’ll never forget."
 
 #[[params.about.sliderItem]]
 #image   = "/images/about/1.jpg"
@@ -92,20 +92,20 @@ subtitle    = ""#"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-#icon    = "tf-anchor2"
-#title   = "Treasurer"
-#description = "Edouard Barrier"
-#email = "mayball.juniortreasurer@cai.cam.ac.uk"
-#delay   = "0.4s"
+icon    = "tf-anchor2"
+title   = "Treasurer"
+description = "Edouard Barrier"
+email = "mayball.juniortreasurer@cai.cam.ac.uk"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Staff"
-description = "Aysha Iqbal"
-email = "mayball.headofstaff@cai.cam.ac.uk"
+icon    = "tf-circle-compass"
+title   = "Head of Ops"
+description = "Rosanna Mutsaars"
+email = "mayball.headofoperations@cai.cam.ac.uk"
 delay   = "0s"
 
 [[params.service.serviceItem]]
@@ -122,21 +122,21 @@ delay   = "0s"
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Secretary"
-description = "Arjun Sharma"
-email = "mayball.secretary@cai.cam.ac.uk"
+icon    = "tf-globe"
+title   = "Staff"
+description = "Aysha Iqbal"
+email = "mayball.headofstaff@cai.cam.ac.uk"
 delay   = "0s"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Head of Ops"
-description = "Rosanna Mutsaars"
-email = "mayball.headofoperations@cai.cam.ac.uk"
-delay   = "0s"
+#icon    = "tf-strategy"
+#title   = "Secretary"
+#description = "Arjun Sharma"
+#email = "mayball.secretary@cai.cam.ac.uk"
+#delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -164,7 +164,7 @@ delay   = "0s"
 # use delay for reveal items one by one
 icon    = "tf-circle-compass"
 title   = "Logistics"
-description = "Morgan Duval Richards"
+description = "M. Richards"
 email = "mayball.operations@cai.cam.ac.uk"
 delay   = "0s"
 
