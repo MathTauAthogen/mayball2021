@@ -1,4 +1,4 @@
-baseURL = "caiusball.com"
+baseURL = "https://caiusball.com"
 languageCode = "en-us"
 title = "Gonville and Caius May Ball"
 theme = "mayball2021"
