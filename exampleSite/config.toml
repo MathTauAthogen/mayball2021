@@ -287,47 +287,96 @@ line = "The Gonville & Caius May Ball is one of the showpiece events of the Camb
 bold = "normal"
 
 [[params.contactspon.stline]]
-line = "To create the highest quality ball possible for the most affordable price, we naturally seek out sponsors to partner with. There are three tiers of sponsorship available, although bespoke arrangements are very possible. In all cases you would have access to a huge community of talented, ambitious individuals."
+line = "To create the highest quality ball possible for the most affordable price, we naturally seek out sponsors to partner with. There are four tiers of sponsorship available, although bespoke arrangements are very possible. In all cases you would have access to a huge community of talented, ambitious individuals."
 bold = "normal"
 
 [[params.contactspon.stline]]
-line = ""
-bold = "bold"
-
-[[params.contactspon.stline]]
-line = "Gold - from £4000"
+line = "Platinum - details to be discussed on a case by case basis"
 size = "20px"
 bold = "bold"
 
 [[params.contactspon.stline]]
-line = "Full page advertisement in the programme. Logo on website, post-ball video, wristband. Able to contact students via mailing lists. Allowed to run a stall on the night. Strong visibility on the night. Possibility of buying up to 6 tickets."
+line = "All the benefits of Bronze, Silver and Gold, plus:"
 bold = "normal"
 
 [[params.contactspon.stline]]
-line = ""
-bold = "bold"
+line = "- longer term relationship possibilities e.g. running promotional schemes in the lead up to the event and following the event"
+bold = "normal"
 
 [[params.contactspon.stline]]
-line = "Silver - from £2000"
+line = "- And other bespoke arrangements"
+bold = "normal"
+ 
+
+[[params.contactspon.stline]]
+line = " Gold - £4000"
 size = "20px"
 bold = "bold"
 
 [[params.contactspon.stline]]
-line = "Full page advertisement in programme. Logo on website, post-ball video. Able to contact students via mailing lists. Strong visibility on the night. Possibility of buying 4 tickets."
+line = "All the benefits of bronze and silver, plus:"
 bold = "normal"
 
 [[params.contactspon.stline]]
-line = ""
+line = "- logo added to event wristband (another keepsake that is provided for guests to identify them on the night, made out of fabric like a festival wristband) "
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- Ability to promote through our mailing list "
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- increased visibility on the night of the ball, through a dedicated stall/brand advertising"
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- Allocation of 6 tickets for purchase if desired"
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "Silver - £2000"
+size = "20px"
 bold = "bold"
 
 [[params.contactspon.stline]]
-line = "Bronze - from £1000"
-size = "20px"
-bold = "900"
+line = "All the benefits of Bronze tier, plus:"
+bold = "normal"
 
 [[params.contactspon.stline]]
-line = "Half-page advertisement in programme. Logo on website. Strong visibility on the night. Possibility of buying 2 tickets."
+line = "- Full page advert in event programme "
 bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- Logo featured in the ‘post ball video’"
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- Allocation of 4 tickets for purchase if desired"
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "Bronze - £1000"
+size = "20px"
+bold = "bold"
+
+[[params.contactspon.stline]]
+line = "- Logo on website "
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- 1/2 page advert in event programme (well produced keepsake that is handed out prior to the night of the ball) "
+bold = "normal"
+
+[[params.contactspon.stline]]
+line = "- Logo and announcement of partnership on social media "
+bold = "normal"
+
+
+[[params.contactspon.stline]]
+line = "- Allocation of 2 tickets for purchase if desired"
+bold = "normal"
+
+
 
 [[params.contactspon.stline]]
 line = "Either fill out this form and await a response, or contact us directly at mayball.juniortreasurer@cai.cam.ac.uk."
