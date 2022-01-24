@@ -1,13 +1,11 @@
 {{ if .Site.Params.service.enable }}
     {{"<!-- Service Section -->" | safeHTML}}
     <span id = "our-team" style="position:absolute; bottom:-12cm"></span>
-    <section class="service section" style="background-color: #aec1c3;">
+    <section class="service section" style="background-color: {{ .Scratch.Get "color" }};">
         <div class="container">
             <div class="row">
                 <div class="heading wow fadeInUp">
-                    {{ with .Site.Params.service.title }}
-                        <h2 style="color:#485b5d">{{ . }}</h2>
-                    {{ end }}
+                        <h2 style="color:{{ .Scratch.Get "headingcolor" }}">{{ .Site.Params.service.title }}</h2>
                     {{ with .Site.Params.service.subtitle }}
                         <p>{{ . }}</p>
                     {{ end }}

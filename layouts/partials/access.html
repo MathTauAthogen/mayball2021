@@ -1,15 +1,13 @@
 {{ if .Site.Params.access.enable }}
     {{"<!-- About Section -->" | safeHTML}}
-    <section id="{{ i18n "about" | urlize }}2" class="section about bg-gray" style="background-color: #fff;">
+    <section id="{{ i18n "about" | urlize }}2" class="section about bg-gray" style="background-color: {{ .Scratch.Get "color" }};">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-12 wow fadeInLeft" style="width:100%">
                     <center>
                     <div class="content">
                         <div class="sub-heading">
-                        {{ with .Site.Params.access.heading }}
-                            <h2 style="font-family:inherit;color:#aec1c3;font-size:28pt">{{ . }}</h2>
-                        {{ end }}
+                            <h2 style="font-family:inherit;color:{{ .Scratch.Get "headingcolor" }};font-size:28pt">{{ .Site.Params.access.heading }}</h2>
                         </div>
                         <br/>
                             <p>We warmly welcome people with disabilities.</p>

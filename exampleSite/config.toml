@@ -332,3 +332,20 @@ bold = "normal"
 [[params.contactspon.stline]]
 line = "Either fill out this form and await a response, or contact us directly at mayball.juniortreasurer@cai.cam.ac.uk."
 bold = "normal"
+
+
+[[params.ticket.faqItem]]
+question = "Lorem Ipsum Dolor Sit Amet"
+answer = "Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet."
+
+[[params.ticket.faqItem]]
+question="Lorem Ipsum Dolor Sit Amet 2"
+answer="Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. 2"
+
+[[params.ticket.faqItem]]
+question="Lorem Ipsum Dolor Sit Amet 3"
+answer="Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. 3"
+
+[[params.ticket.faqItem]]
+question="Lorem Ipsum Dolor Sit Amet 4"
+answer="Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. 4"
