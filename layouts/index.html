@@ -14,11 +14,12 @@
 
 {{ .Scratch.Set "color" "#aec1c3" }}
 {{ .Scratch.Set "headingcolor" "#485b5d" }}
-{{ partialCached "service" . }}
+{{ partialCached "ticketing-main" . }}
+
 
 {{ .Scratch.Set "color" "#fff" }}
 {{ .Scratch.Set "headingcolor" "#aec1c3" }}
-{{ partialCached "ticketing-main" . }}
+{{ partialCached "service" . }}
 
 {{ .Scratch.Set "color" "#aec1c3" }}
 {{ .Scratch.Set "headingcolor" "#485b5d" }}
