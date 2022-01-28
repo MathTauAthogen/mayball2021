@@ -1,14 +1,13 @@
 {{ if .Site.Params.about.enable }}
     {{"<!-- About Section -->" | safeHTML}}
     <span id = "about" style="position:absolute; bottom: 5cm"></span>
-    <section class="section about bg-gray" style="background-color: #fff;">
+    <section class="section about bg-gray" style="background-color: #aec1c3;">
         <div class="container">
             <div class="row">
                 <div class="block bottom-space">
                 <center><div class="col-sm-12 wow fadeInLeft" style="top:20px;position:relative">
                     <div class="content">
                         <div class="sub-heading">
-                            <h3 style="font-family:inherit;">Tickets</h3>
                         </div>
                             <!--<p>More information about tickets will be coming soon!</p>-->
                     </div>
@@ -19,19 +18,20 @@
 
 
 <div class="text-center">
-    <h2>FAQ</h2>
+    <h2 style="font-size:30pt;margin-top: 40px;margin-bottom:20px">Ticket FAQs</h2>
     <br/>
   </div>
   <section>
 
 <a aria-controls="faq-1" aria-expanded="false" data-toggle="collapse" href="#faq-1" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             What kind of tickets are available and how much do they cost?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-1">
+        <br/>
         <p style="font-size:14pt">The tickets available are:
         <ul style="margin-left: 5px !important;
     margin-right: 0px !important;
@@ -44,7 +44,7 @@
     margin-right: 0px !important;
     padding-left: 10px !important;
     padding-right: 0px !important;
-    list-style-type: circle;"><li>There are a limited number of tickets available for Caius alumni who 
+    list-style-type: square;"><li>There are a limited number of tickets available for Caius alumni who 
 graduated in 2020 or 2021 from either a three or four year course (COVID 
 Caian) - £169</li></ul>
     <li>Caius member on the full bursary (Access) - £125</li>
@@ -67,9 +67,9 @@ Caian) - £169</li></ul>
       {{ range .Site.Params.ticket.faqItem }}
             <a aria-controls="faq-{{ .question | urlize }}" aria-expanded="false" data-toggle="collapse" href="#faq-{{ .question | urlize }}" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             {{ .question }}
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-{{ .question | urlize }}">
@@ -93,24 +93,26 @@ Caian) - £169</li></ul>
 
     <a aria-controls="faq-2" aria-expanded="false" data-toggle="collapse" href="#faq-2" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             How do I purchase a ticket?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-2">
+        <br/>
         <p style="font-size:14pt">Tickets can be purchased through the <a href="{{ .Site.BaseURL }}/tickets">Tickets</a> page on this website. Please select the type of purchaser you are (see question 1) to be redirected to the correct page. Students will need to log in to Raven to verify their status. </p>
       </div>
       <hr>
 
       <a aria-controls="faq-3" aria-expanded="false" data-toggle="collapse" href="#faq-3" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             What do I need to bring with me on the night?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-3">
+        <br/>
         <p style="font-size:14pt">You will need:
         <ul style="margin-left: 5px !important;
     margin-right: 0px !important;
@@ -122,7 +124,7 @@ Caian) - £169</li></ul>
     margin-right: 0px !important;
     padding-left: 10px !important;
     padding-right: 0px !important;
-    list-style-type: circle;"><li>European driving licence</li>
+    list-style-type: square;"><li>European driving licence</li>
 <li>Passport</li>
 <li>UIS Cambridge University card (commonly known as camcard)</li>
 <li>Biometric residence permit (BRP)</li>
@@ -137,12 +139,13 @@ Caian) - £169</li></ul>
 
         <a aria-controls="faq-4" aria-expanded="false" data-toggle="collapse" href="#faq-4" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             Can I change the name on my ticket?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-4">
+        <br/>
         <p style="font-size:14pt">Yes. Name changes on and before March 31st 11:59 p.m. are free, and names changes 
         from April 1st at 12:00 a.m. cost £15. Name changes will not be permitted starting from June
         14th at 12:00 a.m.
@@ -161,25 +164,25 @@ Caian) - £169</li></ul>
 
       <a aria-controls="faq-5" aria-expanded="false" data-toggle="collapse" href="#faq-5" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             Can under 18s attend the ball?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-5">
-        <p style="font-size:14pt">Unfortunately, no. All attendees must provide a valid ID on entry.</p>
+        <br/><p style="font-size:14pt">Unfortunately, no. All attendees must provide a valid ID on entry.</p>
       </div>
       <hr>
 
             <a aria-controls="faq-6" aria-expanded="false" data-toggle="collapse" href="#faq-6" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             Can I cancel and get a refund for my ticket?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-6">
-        <p style="font-size:14pt">Tickets can be cancelled for a full refund of the ticket price if notice of cancellation is given 
+        <br/><p style="font-size:14pt">Tickets can be cancelled for a full refund of the ticket price if notice of cancellation is given 
 less than 24 hours after the purchase of tickets. Tickets cancelled after the 24-hour grace 
 period will be refunded, with a £50 administration fee levied for each ticket cancelled. Please
 also note that the booking fee is non-refundable.
@@ -198,13 +201,13 @@ cancelled. </p>
 
     <a aria-controls="faq-7" aria-expanded="false" data-toggle="collapse" href="#faq-7" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             How will I receive my ticket?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-7">
-        <p style="font-size:14pt">Tickets will be distributed by email shortly after you purchase them. Paper tickets will be 
+        <br/><p style="font-size:14pt">Tickets will be distributed by email shortly after you purchase them. Paper tickets will be 
 available for collection in Easter Term. We will give you more information about collection 
 closer to the time.</p>
       </div>
@@ -212,13 +215,13 @@ closer to the time.</p>
 
       <a aria-controls="faq-8" aria-expanded="false" data-toggle="collapse" href="#faq-8" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             What time is the latest admission to the ball?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-8">
-        <p style="font-size:14pt">Entry to the ball will not be permitted after 10:30 p.m. on the night of the ball, unless there 
+        <br/><p style="font-size:14pt">Entry to the ball will not be permitted after 10:30 p.m. on the night of the ball, unless there 
 are exceptional circumstances that have been discussed in advance with the ticketing officer
 (please email <a href="mailto:mayball.ticketing@cai.cam.ac.uk">mayball.ticketing@cai.cam.ac.uk</a>).</p>
       </div>
@@ -226,26 +229,26 @@ are exceptional circumstances that have been discussed in advance with the ticke
 
       <a aria-controls="faq-9" aria-expanded="false" data-toggle="collapse" href="#faq-9" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             What is the dress code?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-9">
-        <p style="font-size:14pt">The dress code is black tie, white tie, national dress or mess dress. Sports blazers will not 
+        <br/><p style="font-size:14pt">The dress code is black tie, white tie, national dress or mess dress. Sports blazers will not 
 be permitted. Those who are not properly attired will not be allowed entry into the ball.</p>
       </div>
       <hr>
 
       <a aria-controls="faq-10" aria-expanded="false" data-toggle="collapse" href="#faq-10" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             Who can I bring as a guest and how many guests can I bring?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-10">
-        <p style="font-size:14pt">Guests do not need to be a member of Caius, an alumnus of Caius nor a student of the 
+        <br/><p style="font-size:14pt">Guests do not need to be a member of Caius, an alumnus of Caius nor a student of the 
 University of Cambridge. This means that your guest could be a friend from Caius, a friend 
 from a different college, a friend from a different university, or even family members!
 <br/>
@@ -259,28 +262,32 @@ one guest.</p>
 
       <a aria-controls="faq-11" aria-expanded="false" data-toggle="collapse" href="#faq-11" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             As a current member of Caius, can I buy a Cantab ticket?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-11">
-        <p style="font-size:14pt">Yes, you are eligible to.</p>
+        <br/><p style="font-size:14pt">Yes, you are eligible to.</p>
       </div>
       <hr>
 
             <a aria-controls="faq-12" aria-expanded="false" data-toggle="collapse" href="#faq-12" role="button">
         <div class="position-relative">
-          <h2>
+          <h3>
             Who can I contact with more questions?
-          </h2>
+          </h3>
         </div>
       </a>
       <div class="collapse" id="faq-12">
-        <p style="font-size:14pt">Please refer to the complete Terms & Conditions before contacting the ticketing officer with 
+        <br/><p style="font-size:14pt">Please refer to the complete <a href="/files/Terms and Conditions.pdf">Terms & Conditions</a> before contacting the ticketing officer with 
 further questions. Otherwise, please contact our ticketing officer at 
 <a href="mailto:mayball.ticketing@cai.cam.ac.uk">mayball.ticketing@cai.cam.ac.uk</a></p>
       </div>
       <hr>
+
+      <br/>
+
+      <center><p style="font-size:14pt">More information can be found in our <a href="/files/Terms and Conditions.pdf">terms and conditions.</a></p></center>
   </section>
 {{ end }}
