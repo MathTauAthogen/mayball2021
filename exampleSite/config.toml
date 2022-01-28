@@ -333,19 +333,11 @@ bold = "normal"
 line = "Either fill out this form and await a response, or contact us directly at mayball.juniortreasurer@cai.cam.ac.uk."
 bold = "normal"
 
+[[params.ticket.faqItem]]
+question="What does my ticket cover?"
+answerline1 = "A ticket unlocks unrestricted access to food, drink and entertainment throughout the entire night, for no additional fee. Look forward to vendors and performers that are a mix of familiar fan favourites and exciting, never-before-seen names. "
+answerline2 = "Please note that the four-course dinner before the ball is a separate add-on (see question 1)."
 
 [[params.ticket.faqItem]]
-question = "Lorem Ipsum Dolor Sit Amet"
-answer = "Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet."
-
-[[params.ticket.faqItem]]
-question="Lorem Ipsum Dolor Sit Amet 2"
-answer="Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. 2"
-
-[[params.ticket.faqItem]]
-question="Lorem Ipsum Dolor Sit Amet 3"
-answer="Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. 3"
-
-[[params.ticket.faqItem]]
-question="Lorem Ipsum Dolor Sit Amet 4"
-answer="Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet. 4"
+question="When do tickets go on sale?"
+answerline1	="Tickets will be available for Caius members from Thursday February 10th at 1:00 p.m. They will be available to other members of the University of Cambridge from Friday February 11th at 1:00 p.m."
