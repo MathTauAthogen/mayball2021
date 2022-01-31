@@ -74,6 +74,9 @@ $(document).ready(function () {
             $(".dash_move_2").css("left","-20px");
             $(".dash_move_1").css("left","-25px");
             $(".pushdown").css("min-height","325px");
+            $(".ticketbox").css("min-height","750px");
+            $(".headticket").css("font-size","15pt");
+
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
@@ -84,6 +87,8 @@ $(document).ready(function () {
             $(".dash_move_2").css("left","0px");
             $(".dash_move_1").css("left","-20px");
             $(".pushdown").css("min-height","200px");
+            $(".ticketbox").css("min-height","200px");
+            $(".headticket").css("font-size","25pt");
         }
         if (scroll > 1980) {
             //console.log('a');
@@ -105,6 +110,10 @@ $(document).ready(function () {
             $(".dash_move_2").css("left","-20px");
             $(".dash_move_1").css("left","-25px");
             $(".pushdown").css("min-height","325px");
+            $(".ticketbox").css("min-height","325px");
+            $(".headticket").css("font-size","20pt");
+            $(".ticketbox").css("min-height","750px");
+            $(".headticket").css("font-size","15pt");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
@@ -115,6 +124,10 @@ $(document).ready(function () {
             $(".dash_move_2").css("left","0px");
             $(".dash_move_1").css("left","-20px");
             $(".pushdown").css("min-height","200px");
+            $(".ticketbox").css("min-height","325px");
+            $(".headticket").css("font-size","20pt");
+            $(".ticketbox").css("min-height","200px");
+            $(".headticket").css("font-size","25pt");
         }
         if (scroll > 1980) {
             //console.log('a');

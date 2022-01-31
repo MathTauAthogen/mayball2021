@@ -381,3 +381,9 @@ bold = "normal"
 [[params.contactspon.stline]]
 line = "Either fill out this form and await a response, or contact us directly at mayball.juniortreasurer@cai.cam.ac.uk."
 bold = "normal"
+
+[[params.ticket.faqItem]]
+question="What does my ticket cover?"
+answerline1 = "A ticket unlocks unrestricted access to food, drink and entertainment throughout the entire night, for no additional fee. Look forward to vendors and performers that are a mix of familiar fan favourites and exciting, never-before-seen names. "
+answerline2 = "Please note that the four-course dinner before the ball is a separate add-on (see question 1)."
+
