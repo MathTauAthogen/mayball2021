@@ -338,6 +338,3 @@ question="What does my ticket cover?"
 answerline1 = "A ticket unlocks unrestricted access to food, drink and entertainment throughout the entire night, for no additional fee. Look forward to vendors and performers that are a mix of familiar fan favourites and exciting, never-before-seen names. "
 answerline2 = "Please note that the four-course dinner before the ball is a separate add-on (see question 1)."
 
-[[params.ticket.faqItem]]
-question="When do tickets go on sale?"
-answerline1	="Tickets will be available for Caius members from Thursday February 10th at 1:00 p.m. They will be available to other members of the University of Cambridge from Friday February 11th at 1:00 p.m."
