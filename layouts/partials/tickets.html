@@ -21,7 +21,7 @@
     <h2 style="font-size:30pt;margin-top: 40px;margin-bottom:20px">Ticket FAQs</h2>
     <br/>
   </div>
-  <section>
+  <section style="width:90%">
 
 <a aria-controls="faq-1" aria-expanded="false" data-toggle="collapse" href="#faq-1" role="button">
         <div class="position-relative">
@@ -38,19 +38,20 @@
     padding-left: 10px !important;
     padding-right: 0px !important;font-size:14pt;
     list-style-type: circle;">
-            <li>Caius member (Caian) - £169</li>
-            <li>Caius alumnus - £199</li>
+            <li style="font-size:14pt">Caius member (Caian) - £169</li>
+            <li style="font-size:14pt">Caius alumnus - £199</li>
             <ul style="margin-left: 5px !important;
     margin-right: 0px !important;
     padding-left: 10px !important;
     padding-right: 0px !important;
-    list-style-type: square;"><li>There are a limited number of tickets available for Caius alumni who 
+    list-style-type: square;"><li style="font-size:14pt">There are a limited number of tickets available for Caius alumni who 
 graduated in 2020 or 2021 from either a three or four year course (COVID 
 Caian) - £169</li></ul>
-    <li>Caius member on the full bursary (Access) - £125</li>
-    <li>Non-Caius member of the University of Cambridge (Cantab) - £179</li>
+    <li style="font-size:14pt">Caius member on the full bursary (Access) - £125</li>
+    <li style="font-size:14pt">Non-Caius member of the University of Cambridge (University) - £179</li>
         </ul>
     </p>
+    <br/>
     <p style="font-size:14pt">
     The add-ons available to all ticket-types are:
     <ul style="margin-left: 5px !important;
@@ -58,8 +59,8 @@ Caian) - £169</li></ul>
     padding-left: 10px !important;
     padding-right: 0px !important; font-size: 14pt;
     list-style-type: circle;">
-        <li>Dining ticket add-on - £42</li>
-        <li>Queue jump add-on - £15</li>
+        <li style="font-size:14pt">Dining ticket add-on - £42</li>
+        <li style="font-size:14pt">Queue jump add-on - £15</li>
     </ul></p>
       </div>
       <hr>
@@ -75,17 +76,8 @@ Caian) - £169</li></ul>
       <div class="collapse" id="faq-{{ .question | urlize }}">
           <br/>
           <p style="font-size:14pt">{{ .answerline1 }}</p>
+          <br/>
           <p style="font-size:14pt">{{ .answerline2 }}</p>
-          <p style="font-size:14pt">{{ .answerline3 }}</p>
-          <p style="font-size:14pt">{{ .answerline4 }}</p>
-          <p style="font-size:14pt">{{ .answerline5 }}</p>
-          <p style="font-size:14pt">{{ .answerline6 }}</p>
-          <p style="font-size:14pt">{{ .answerline7 }}</p>
-          <p style="font-size:14pt">{{ .answerline8 }}</p>
-          <p style="font-size:14pt">{{ .answerline9 }}</p>
-          <p style="font-size:14pt">{{ .answerline10 }}</p>
-          <p style="font-size:14pt">{{ .answerline11 }}</p>
-          <p style="font-size:14pt">{{ .answerline12 }}</p>
 
       </div>
       <hr>
@@ -119,19 +111,19 @@ Caian) - £169</li></ul>
     padding-left: 10px !important;
     padding-right: 0px !important;font-size:14pt;
     list-style-type: circle;">
-            <li>A valid form of ID. We accept:</li>
+            <li style="font-size:14pt">A valid form of ID. We accept:</li>
             <ul style="margin-left: 5px !important;
     margin-right: 0px !important;
     padding-left: 10px !important;
     padding-right: 0px !important;
-    list-style-type: square;"><li>European driving licence</li>
-<li>Passport</li>
-<li>UIS Cambridge University card (commonly known as camcard)</li>
-<li>Biometric residence permit (BRP)</li>
-<li>Proof of Age Standards Scheme (PASS) card</li>
-<li>National Identity card e.g. French Carte d’Identité </li>
+    list-style-type: square;"><li style="font-size:14pt">European driving licence</li>
+<li style="font-size:14pt">Passport</li>
+<li style="font-size:14pt">UIS Cambridge University card (commonly known as camcard)</li>
+<li style="font-size:14pt">Biometric residence permit (BRP)</li>
+<li style="font-size:14pt">Proof of Age Standards Scheme (PASS) card</li>
+<li style="font-size:14pt">National Identity card e.g. French Carte d’Identité </li>
         </ul>
-        <li>Your paper ticket</li>
+        <li style="font-size:14pt">Your paper ticket</li>
     </ul>
     </p>
 </div>
@@ -149,12 +141,15 @@ Caian) - £169</li></ul>
         <p style="font-size:14pt">Yes. Name changes on and before March 31st 11:59 p.m. are free, and names changes 
         from April 1st at 12:00 a.m. cost £15. Name changes will not be permitted starting from June
         14th at 12:00 a.m.
-        <br/>
+        <br/><br/>
+
         To request a name change, please fill in the Google Form on the <a href="{{ .Site.BaseURL }}/tickets">Tickets</a> page of this 
         website. 
-        <br/>
+        <br/><br/>
+
         Please note that it is not possible to change ticket types.
-        <br/>
+        <br/><br/>
+
         Under no circumstances can tickets or guest places be sold for profit. Tickets can only be re-
         sold at their original price (see question 1). Anyone found in breach of this condition, either 
         having had or attempted to sell tickets or guest places for profit, will have all their tickets 
@@ -189,10 +184,14 @@ also note that the booking fee is non-refundable.
 
 <br/>
 
+<br/>
+
 Tickets cannot be cancelled starting from May 9th at 12:00 a.m. If you have purchased guest
 tickets, you cannot only cancel your own ticket and not canel your guest(s)’s ticket(s). 
 
 <br/>
+<br/>
+
 To cancel your ticket, please send an email to the ticketing officer at 
 <a href="mailto:mayball.ticketing@cai.cam.ac.uk">mayball.ticketing@cai.cam.ac.uk</a>, which clearly states that you would like your ticket(s) 
 cancelled. </p>
@@ -251,10 +250,12 @@ be permitted. Those who are not properly attired will not be allowed entry into 
         <br/><p style="font-size:14pt">Guests do not need to be a member of Caius, an alumnus of Caius nor a student of the 
 University of Cambridge. This means that your guest could be a friend from Caius, a friend 
 from a different college, a friend from a different university, or even family members!
-<br/>
+<br/><br/>
+
 If you are a Caius member (including if you are on bursary) and a Caius alumnus (including 
 if you graduated in 2020 or 2021), you may bring no more than two guests.
-<br/>
+<br/><br/>
+
 If you are a non-Caius member at the University of Cambridge, you may bring no more than 
 one guest.</p>
       </div>
