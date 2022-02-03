@@ -145,7 +145,7 @@ delay   = "0s"
 icon    = "tf-globe"
 title   = "Head of Ents"
 description = "Emily Herbert"
-email = "mayball.ents@cai.cam.ac.uk"
+email = "mayball.headofents@cai.cam.ac.uk"
 delay   = "0s"
 
 [[params.service.serviceItem]]
