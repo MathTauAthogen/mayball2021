@@ -68,25 +68,35 @@ enable      = true
 title       = "Meet Our Committee"
 subtitle    = ""#"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
 
-#[[params.service.serviceItem]]
+[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 #icon    = "tf-strategy"
-#title   = "President"
-#description = "Floris Blok"
-#email = "mayball.president@cai.cam.ac.uk"
-#delay   = "0s"
+title   = "President"
+description = "Floris Blok"
+email = "mayball.president@cai.cam.ac.uk"
+delay   = "0s"
 
-#[[params.service.serviceItem]]
+[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 #icon    = "tf-circle-compass"
-#title   = "VP"
-#description = "Binu Perera"
-#email = "mayball.vicepresident@cai.cam.ac.uk"
-#delay   = "0.2s"
+title   = "VP"
+description = "Binu Perera"
+email = "mayball.vicepresident@cai.cam.ac.uk"
+delay   = "0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-strategy"
+title   = "Secretary"
+description = "Arjun Sharma"
+email = "mayball.secretary@cai.cam.ac.uk"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -128,15 +138,15 @@ description = "Aysha Iqbal"
 email = "mayball.headofstaff@cai.cam.ac.uk"
 delay   = "0s"
 
-#[[params.service.serviceItem]]
+[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-#icon    = "tf-strategy"
-#title   = "Secretary"
-#description = "Arjun Sharma"
-#email = "mayball.secretary@cai.cam.ac.uk"
-#delay   = "0s"
+icon    = "tf-globe"
+title   = "Head of Ents"
+description = "Emily Herbert"
+email = "mayball.ents@cai.cam.ac.uk"
+delay   = "0s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
@@ -203,18 +213,8 @@ delay   = "0s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-circle-compass"
-title   = "Musical Ents"
+title   = "Ents"
 description = "Stan MacMurray"
-email = "mayball.ents@cai.cam.ac.uk"
-delay   = "0s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Non-musical Ents"
-description = "Emily Herbert"
 email = "mayball.ents@cai.cam.ac.uk"
 delay   = "0s"
 
@@ -228,35 +228,35 @@ description = "Kate Aspbury"
 email = "mayball.food@cai.cam.ac.uk"
 delay   = "0s"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Drink"
-description = "Alexandria Smith"
-email = "mayball.drinks@cai.cam.ac.uk"
-delay   = "0s"
+#icon    = "tf-strategy"
+#title   = "Drink"
+#description = "Alexandria Smith"
+#email = "mayball.drinks@cai.cam.ac.uk"
+#delay   = "0s"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Ticketing"
-description = "Vanessa Chen"
-email = "mayball.ticketing@cai.cam.ac.uk"
-delay   = "0s"
+#icon    = "tf-circle-compass"
+#title   = "Ticketing"
+#description = "Vanessa Chen"
+#email = "mayball.ticketing@cai.cam.ac.uk"
+#delay   = "0s"
 
-[[params.service.serviceItem]]
+#[[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Technical"
-description = "Javier Sanchez-Bonilla Martinez"
-email = "mayball.technical@cai.cam.ac.uk"
-delay   = "0s"
+#icon    = "tf-anchor2"
+#title   = "Technical"
+#description = "Javier Sanchez-Bonilla Martinez"
+#email = "mayball.technical@cai.cam.ac.uk"
+#delay   = "0s"
 
 # Call to Action Section
 [params.cta]
