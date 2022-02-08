@@ -1,6 +1,7 @@
 {{ if .Site.Params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
-    <section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;'>
+    <!--<section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;'>-->
+        <section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-color: #1F2A31;'>
         <div class="container" style="width:90%">
             <div class="row" style="width:100%">
                 <div class="col-lg-4 col-md-10" style="margin-left:20%">
@@ -9,7 +10,7 @@
                         <div style="position:relative; margin:auto;left: 0;margin-left: auto; margin-right: auto; width: 100%"><a class="navbar-brand float-none" style="width:  200px" href="{{ .Site.BaseURL }}">
                 </a></div></center>
                         <h1 class="wow fadeInDown" style="color:#71594A;font-variant-ligatures: none!important;display:inline-block;" data-wow-delay="0.3s" data-wow-duration=".2s">
-                            <center style="font-variant-ligatures: none!important;color:#e19700"><span style="font-size: 30pt;">GONVILLE AND CAIUS MAY BALL 2022 <br/> PRESENTS: <br/><br/> <span style="font-size:100pt">SALIGIA </span><br/> 21.06.2022</span></center>
+                            <center style="font-variant-ligatures: none!important;color:#e19700"><span style="font-size: 30pt;font-variant-ligatures: none!important">GONVILLE AND CAIUS MAY BALL 2022 <br/> PRESENTS: <br/><br/> <span style="font-size:100pt;font-variant-ligatures: none!important">SALIGIA </span><br/> 21.06.2022</span></center>
                         </h1>
                         {{ with .Site.Params.hero.subtitle }}
                         <p class="wow fadeInDown" data-wow-delay="0.5s" data-wow-duration=".5s">

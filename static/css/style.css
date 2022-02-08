@@ -3,35 +3,6 @@
 --*/
 
 
-
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: slategray;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
- color: slategray;
-}
-
-a:active {
-  color: slategray;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 body {
   font-size: 14px;
   font-weight: 300;
