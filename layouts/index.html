@@ -8,12 +8,14 @@
 
 <!--{{ partial "about.html" . }}-->
 
-{{ .Scratch.Set "color" "#154911" }}
-{{ .Scratch.Set "headingcolor" "#851e00" }}
+{{ .Scratch.Set "color" "#e19700" }}
+{{ .Scratch.Set "headingcolor" "#1F2A31" }}
+{{ .Scratch.Set "textcolor" "#1F2A31" }}
 {{ partialCached "about" . }}
 
-{{ .Scratch.Set "color" "#21386c" }}
-{{ .Scratch.Set "headingcolor" "#851e00" }}
+{{ .Scratch.Set "color" "#1F2A31" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "ticketing-main" . }}
 
 <!--{{ .Scratch.Set "color" "#fff" }}
