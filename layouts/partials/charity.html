@@ -1,8 +1,13 @@
 {{ if .Site.Params.cta.enable }}
     {{"<!-- Call To Action Section -->" | safeHTML}}
     <!--<section class="call-to-action" style='background-image: url("{{ with .Site.Params.cta.bg }}{{.}}{{ end }}")' >-->
+                    <style>
+        .asfddsa p{
+            color: {{ .Scratch.Get "textcolor" }};
+        }
+    </style>
         <span id = "call-to-action" style="position:absolute; bottom:-65cm"></span>
-        <section class="call-to-action" style="background-color: {{ .Scratch.Get "color" }};">
+        <section class="call-to-action asfddsa" style="background-color: {{ .Scratch.Get "color" }};">
         <div class="container">
             <div class="row">
                 <center><div class="sub-heading">

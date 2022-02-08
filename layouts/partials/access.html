@@ -1,7 +1,12 @@
 {{ if .Site.Params.access.enable }}
     {{"<!-- About Section -->" | safeHTML}}
     <section id="{{ i18n "about" | urlize }}2" class="section about bg-gray" style="background-color: {{ .Scratch.Get "color" }};">
-        <div class="container">
+            <style>
+        .buni p{
+            color: {{ .Scratch.Get "textcolor" }};
+        }
+    </style>
+        <div class="container buni">
             <div class="row">
                 <div class="col-md-7 col-sm-12 wow fadeInLeft" style="width:100%">
                     <center>
