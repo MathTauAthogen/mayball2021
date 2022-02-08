@@ -16,11 +16,17 @@
         color: #1F2A31;
     }
     </style>
+    <style>
+.asdfs a{
+    text-decoration: none;
+}
+</style>
 
 
 {{ if .Site.Params.about.enable }}
     {{"<!-- About Section -->" | safeHTML}}
     <span id = "about" style="position:absolute; bottom: 5cm"></span>
+
     <section class="section about bg-gray" style="background-color: {{.Site.Params.bgcolournewpages}};">
         <div class="container">
             <div class="row">
@@ -36,7 +42,8 @@
             </div>
         </div>
 
-<hr style="color:#1F2A31;"/>
+<hr style="border: 1px solid #1F2A31;
+  border-radius: 5px;margin-top:30px;margin-left:-40%;margin-right:-40%">
 
 <div class="text-center">
     <h2 style="font-size:30pt;margin-top: 40px;margin-bottom:20px">Tickets!</h2>
@@ -48,13 +55,14 @@
 <div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/gonvillecaiusmayball2022committee/?ref=website_widget" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/gonvillecaiusmayball2022committee/" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div>
 <!-- End of Ticket Tailor Widget --></center>
 
-<hr style="color:#1F2A31;"/>
+<hr style="border: 1px solid #1F2A31;
+  border-radius: 5px;margin-top:30px;margin-left:-40%;margin-right:-40%">
 
 <div class="text-center">
     <h2 style="font-size:30pt;margin-top: 40px;margin-bottom:20px">Ticket FAQs</h2>
     <br/>
   </div>
-  <section style="width:90%">
+  <section class="asdfs" style="width:100%">
 
 <a aria-controls="faq-1" aria-expanded="false" data-toggle="collapse" href="#faq-1" role="button">
         <div class="position-relative">
