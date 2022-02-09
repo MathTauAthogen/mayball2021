@@ -1,7 +1,7 @@
 {{ if .Site.Params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
-    <!--<section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;'>-->
-        <section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-color: #1F2A31;'>
+    <section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;'>
+        <!--<section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-color: #1F2A31;'>-->
         <div class="container" style="width:100%;position:absolute">
             <center>
                 <div class="display2" style="display:table-cell">

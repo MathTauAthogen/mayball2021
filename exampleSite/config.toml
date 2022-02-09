@@ -22,7 +22,7 @@ contact = "Contact Us"
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "/images/header-bg.jpg"
+bg                = "/images/header-bg.png"
 title             ="" # "BRING YOUR PRODUCT TO LIGHT"
 subtitle          ="" # "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
 btnText           ="" # "Get Started"
