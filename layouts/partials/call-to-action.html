@@ -7,7 +7,7 @@
         }
     </style>
         <span id = "contact-us" style="position:absolute; bottom:-80cm"></span>
-        <section class="call-to-action sdg" style="background-color: {{ .Scratch.Get "color" }};">
+        <section class="call-to-action sdg" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;background-attachment:fixed;'>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow text-center">

@@ -1,4 +1,4 @@
-    <section id="ticketing" class="section about bg-gray" style="background-color: {{ .Scratch.Get "color" }};">
+    <section id="ticketing" class="section about bg-gray" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;background-attachment:fixed;'>
             <style>
         .asdfsadfasdfasdf p{
             color: {{ .Scratch.Get "textcolor" }};
