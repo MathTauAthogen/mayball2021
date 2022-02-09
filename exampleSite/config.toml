@@ -9,7 +9,7 @@ removePathAccents = true
 # HTML before the closing </head>
 [params]
 customHead = ""
-bgcolournewpages="#636A6F"
+bgcolournewpages="#1F2A31"
 
 # Navigation
 [params.navigation]
@@ -37,7 +37,7 @@ countdownDay  = "21"
 [params.about]
 enable      = true
 heading     = "About the Gonville and Caius May Ball"
-description = "The Gonville and Caius May Ball is a lavish and sought-after event held in June to celebrate the end of the year. Spanning the whole of the College, the Caius May Ball is an all-inclusive experience where the best drink, food, music and entertainment in Cambridge will be on display for you to enjoy. Join us on the 21st of June 2022 for the return of the Gonville and Caius May Ball, sure to be a night you’ll never forget."
+description = "Join us at Caius May Ball on a journey from the Garden of Eden into a world of sinful indulgence and back to Paradise. Stay in Eden and enjoy limitless food and drink, or descend into the depths of purgatory and explore the Seven Deadly Sins. The choice is yours at Saligia. Join us on the 21st of June 2022 for the return of the Gonville and Caius May Ball, sure to be a night you’ll never forget."
 
 #[[params.about.sliderItem]]
 #image   = "/images/about/1.jpg"
