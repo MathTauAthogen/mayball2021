@@ -76,6 +76,13 @@ $(document).ready(function () {
             $(".pushdown").css("min-height","325px");
             $(".ticketbox").css("min-height","750px");
             $(".headticket").css("font-size","15pt");
+            $(".small").css("font-size","15pt");
+            $(".small2").css("font-size","60pt");
+            $(".decenter").css("margin","auto");
+            $(".decenter").css("width","100%");
+            $(".one").css("display","none");
+            $(".two").css("display","block");
+            $(".display2").css("display","block");
 
         } else {
             $(".normal-nav").css("display","block");
@@ -89,6 +96,13 @@ $(document).ready(function () {
             $(".pushdown").css("min-height","200px");
             $(".ticketbox").css("min-height","200px");
             $(".headticket").css("font-size","25pt");
+            $(".small").css("font-size","30pt");
+            $(".small2").css("font-size","100pt");
+            $(".decenter").css("margin","auto");
+            $(".decenter").css("width","100%");
+            $(".one").css("display","inline-block");
+            $(".two").css("display","none");
+            $(".display2").css("display","table-cell");
         }
         if (scroll > 1980) {
             //console.log('a');
@@ -114,6 +128,13 @@ $(document).ready(function () {
             $(".headticket").css("font-size","20pt");
             $(".ticketbox").css("min-height","750px");
             $(".headticket").css("font-size","15pt");
+            $(".small").css("font-size","15pt");
+            $(".small2").css("font-size","60pt");
+            $(".decenter").css("margin","auto");
+            $(".decenter").css("width","100%");
+            $(".one").css("display","none");
+            $(".two").css("display","block");
+            $(".display2").css("display","block");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
@@ -128,6 +149,13 @@ $(document).ready(function () {
             $(".headticket").css("font-size","20pt");
             $(".ticketbox").css("min-height","200px");
             $(".headticket").css("font-size","25pt");
+                        $(".small").css("font-size","30pt");
+            $(".small2").css("font-size","100pt");
+            $(".decenter").css("margin","auto");
+            $(".decenter").css("width","100%");
+            $(".one").css("display","inline-block");
+            $(".two").css("display","none");
+            $(".display2").css("display","table-cell");
         }
         if (scroll > 1980) {
             //console.log('a');

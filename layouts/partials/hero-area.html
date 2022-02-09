@@ -1,73 +1,34 @@
 {{ if .Site.Params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
     <section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-position: right 0;background-repeat: no-repeat;background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");background-repeat: no-repeat;'>
-        <div class="container" style="width:90%">
-            <div class="row" style="width:100%">
-                <div class="col-lg-4 col-md-10">
-                    <div class="block">
-                        <center style="width:95%;margin:auto">
-                        <div style="position:relative; margin:auto;left: 0;margin-left: auto; margin-right: auto; width: 100%"><a class="navbar-brand float-none" style="width:  200px" href="{{ .Site.BaseURL }}">
-                {{ with .Site.Params.navigation.logo }}
-                <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
-                <img src="{{ . }}" alt="logo" style="width: 200px">
-                {{ end }}
-                </a></div></center>
-                        <h1 class="wow fadeInDown" style="color:#71594A;font-variant-ligatures: none!important;display:inline-block;" data-wow-delay="0.3s" data-wow-duration=".2s">
-                            <center style="font-variant-ligatures: none!important;">GONVILLE & CAIUS MAY BALL 21.06.2022</center>
+        <!--<section id="{{ i18n `home` | urlize }}" class="hero-area" style='background-color: #1F2A31;'>-->
+        <div class="container" style="width:100%;position:absolute">
+            <center>
+                <div class="display2" style="display:table-cell">
+                        <h1 class="wow fadeInDown one" style="color:#71594A;font-variant-ligatures: none!important;display:inline-block;" data-wow-delay="0.3s" data-wow-duration=".2s">
+                            <center style="font-variant-ligatures: none!important;color:#e19700"><span class = "small" style="font-size: 30pt;font-variant-ligatures: none!important">GONVILLE AND CAIUS MAY BALL 2022 <br/> PRESENTS: <br/><br/> <span class = "small2" style="font-size:100pt;font-variant-ligatures: none!important">SALIGIA </span><br/> 21.06.2022</span></center>
                         </h1>
-                        {{ with .Site.Params.hero.subtitle }}
-                        <p class="wow fadeInDown" data-wow-delay="0.5s" data-wow-duration=".5s">
-                            {{ . }}
-                        </p>
-                        {{ end }}
-                        {{ with .Site.Params.hero.btnText }}
-                        <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
-                            <a class="btn btn-home" href="#{{ i18n "about" | urlize }}" role="button">
-                                {{ . }}
-                            </a>
-                        </div>
-                        {{ end }}
+                        <h1 class="wow fadeInDown two" style="color:#71594A;font-variant-ligatures: none!important;display:none;" data-wow-delay="0.3s" data-wow-duration=".2s;">
+                            <center style="font-variant-ligatures: none!important;color:#e19700"><span class = "small" style="font-size: 15pt;font-variant-ligatures: none!important;line-height:0px;">GONVILLE AND CAIUS MAY BALL 2022 PRESENTS: <div style="line-height:50px"><br/></div> <span class = "small2" style="font-size:20pt;font-variant-ligatures: none!important">SALIGIA </span> <br/>21.06.2022</span></center>
+                        </h1>
                     </div>
-                </div>
-                {{ if not .Site.Params.hero.disableCountdown }}
-                <div class="col-lg-5 col-md-6 wow zoomIn">
-                    <div class="block" style="background-color:#aec1c3; color:#e8b381">
-                        <div class="counter text-center">
-                            <ul id="countdown_dashboard" data-year="{{ with .Site.Params.hero.countdownYear }} {{ . }}{{ end }}" data-month="{{ with .Site.Params.hero.countdownMonth }} {{ . }}{{ end }}" data-day="{{ with .Site.Params.hero.countdownDay }} {{ . }}{{ end }}">
-                                <li>
-                                    <div class="dash days_dash">
-                                        <div class="digit" style="color:#e8b381;">0</div>
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <div class="digit"style="color:#e8b381">0</div>
-                                        <span class="dash_title" style="color:#e8b381">{{i18n "days" }}</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dash hours_dash">
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <span class="dash_title" style="color:#e8b381">{{i18n "hours" }}</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dash minutes_dash">
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <span class="dash_title" style="color:#e8b381">{{i18n "minutes" }}</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dash seconds_dash">
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <div class="digit" style="color:#e8b381">0</div>
-                                        <span class="dash_title" style="color:#e8b381">{{i18n "seconds" }}</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                    <div style="display:table-cell;vertical-align: top;">
+                    {{ with .Site.Params.navigation.logo }}
+                <!--<p style="color:#8aaa79; font-family = themefisher-font">Gonville and Caius May Ball 2021</p>-->
+<img src="{{ . }}" alt="logo" style="width: 225px">
                 {{ end }}
+                </div>           
+                </center>
+
+</div>
+
+<div class="col-lg-5 col-md-6 wow zoomIn">
+
+                
+
+
+            </div>
+
             </div>
             <!-- .row close -->
         </div>

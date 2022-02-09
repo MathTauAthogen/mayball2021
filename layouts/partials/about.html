@@ -1,44 +1,49 @@
 {{ if .Site.Params.about.enable }}
     {{"<!-- About Section -->" | safeHTML}}
+    <style>
+        .asdasd p{
+            color: {{ .Scratch.Get "textcolor" }};
+        }
+    </style>
     <span id = "about" style="position:absolute; bottom: 5cm"></span>
-    <section class="section about bg-gray" style="background-color: {{ .Scratch.Get "color" }}"><!--#fff;">-->
+    <section class="section about asdasd" style="background-color: {{ .Scratch.Get "color" }}"><!--#fff;">-->
         <div class="container" style="width:100%">
             <div class="row" style="float:none">
                 <center class = "pushdown" style="float:none;position:relative;min-height:325px"><div class="hero-area" style="width: 80%;height: 50px; margin-top: 0px;display:block">
                     <div class="wow zoomIn countdownWidget" style="width: 60vw; display:block;margin: auto;min-height: 200px;">
-                    <div class="block" style="background-color:#aec1c3; color:#71594A;height:10%;min-height: 175px;">
-                        <div class="counter text-center" style="min-height: 150px">
+                    <div class="block" style="background-color:#1F2A31; color:#1F2A31; height:10%;min-height: 175px;">
+                        <div class="counter text-center" style="min-height: 150px;">
                             <ul id="countdown_dashboard" data-year="{{ with .Site.Params.hero.countdownYear }} {{ . }}{{ end }}" data-month="{{ with .Site.Params.hero.countdownMonth }} {{ . }}{{ end }}" data-day="{{ with .Site.Params.hero.countdownDay }} {{ . }}{{ end }}">
                                 <li style="width:23%;min-height: 150px;">
                                     <div class="dash days_dash">
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit"style="color:#71594A;font-size:3vw">0</div>
-                                        <span class="dash_title dash_move_3" style="color:#71594A;font-size:2vw;position:relative">{{i18n "days" }}</span>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit"style="color:#851e00;font-size:3vw">0</div>
+                                        <span class="dash_title dash_move_3" style="color:#851e00;font-size:2vw;position:relative">{{i18n "days" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:23%;min-height: 150px">
                                     <div class="dash hours_dash">
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <span class="dash_title dash_move_2" style="color:#71594A;font-size:2vw;position:relative">{{i18n "hours" }}</span>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <span class="dash_title dash_move_2" style="color:#851e00;font-size:2vw;position:relative">{{i18n "hours" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:23%;min-height: 150px">
                                     <div class="dash minutes_dash">
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <span class="dash_title dash_move_1" style="color:#71594A;font-size:2vw;position:relative;left:-20px">{{i18n "minutes" }}</span>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <span class="dash_title dash_move_1" style="color:#851e00;font-size:2vw;position:relative;left:-20px">{{i18n "minutes" }}</span>
                                     </div>
                                 </li>
                                 <li style="width:23%;min-height: 150px">
                                     <div class="dash seconds_dash">
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <div class="digit" style="color:#71594A;font-size:3vw">0</div>
-                                        <span class="dash_title dash_move_1" style="color:#71594A;font-size:2vw;position:relative;left:-20px">{{i18n "seconds" }}</span>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <div class="digit" style="color:#851e00;font-size:3vw">0</div>
+                                        <span class="dash_title dash_move_1" style="color:#851e00;font-size:2vw;position:relative;left:-20px">{{i18n "seconds" }}</span>
                                     </div>
                                 </li>
                             </ul>

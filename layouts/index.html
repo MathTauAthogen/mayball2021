@@ -8,33 +8,38 @@
 
 <!--{{ partial "about.html" . }}-->
 
-{{ .Scratch.Set "color" "#fff" }}
-{{ .Scratch.Set "headingcolor" "#aec1c3" }}
+{{ .Scratch.Set "color" "#636A6F" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "about" . }}
 
-{{ .Scratch.Set "color" "#aec1c3" }}
-{{ .Scratch.Set "headingcolor" "#485b5d" }}
+{{ .Scratch.Set "color" "#1F2A31" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "ticketing-main" . }}
 
-
-{{ .Scratch.Set "color" "#fff" }}
+<!--{{ .Scratch.Set "color" "#fff" }}
 {{ .Scratch.Set "headingcolor" "#aec1c3" }}
-{{ partialCached "service" . }}
+{{ partialCached "service" . }}-->
 
-{{ .Scratch.Set "color" "#aec1c3" }}
-{{ .Scratch.Set "headingcolor" "#485b5d" }}
+{{ .Scratch.Set "color" "#636A6F" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "access" . }}
 
-{{ .Scratch.Set "color" "#fff" }}
-{{ .Scratch.Set "headingcolor" "#aec1c3" }}
+{{ .Scratch.Set "color" "#1F2A31" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "call-to-action" . }}
 
-{{ .Scratch.Set "color" "#aec1c3" }}
-{{ .Scratch.Set "headingcolor" "#485b5d" }}
+{{ .Scratch.Set "color" "#636A6F" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "contact" . }}
 
-{{ .Scratch.Set "color" "#fff" }}
-{{ .Scratch.Set "headingcolor" "#aec1c3" }}
+{{ .Scratch.Set "color" "#1F2A31" }}
+{{ .Scratch.Set "headingcolor" "#e19700" }}
+{{ .Scratch.Set "textcolor" "#e19700" }}
 {{ partialCached "charity" . }}
 
 {{ partial "footer.html" . }}
