@@ -76,6 +76,13 @@ $(document).ready(function () {
             $(".pushdown").css("min-height","325px");
             $(".ticketbox").css("min-height","750px");
             $(".headticket").css("font-size","15pt");
+            $(".small").css("font-size","15pt");
+            $(".small2").css("font-size","60pt");
+            $(".decenter").css("margin","auto");
+            $(".decenter").css("width","100%");
+            $(".one").css("display","none");
+            $(".two").css("display","block");
+            $(".display2").css("display","block");
 
         } else {
             $(".normal-nav").css("display","block");
