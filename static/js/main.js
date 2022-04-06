@@ -125,6 +125,7 @@ $(document).ready(function () {
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
     }
+    
     function getCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
@@ -137,7 +138,7 @@ $(document).ready(function () {
         }
         return null;
     }
-    
+
     function eraseCookie(name) {   
         document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
