@@ -137,6 +137,7 @@ $(document).ready(function () {
         }
         return null;
     }
+    
     function eraseCookie(name) {   
         document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
@@ -146,7 +147,7 @@ $(document).ready(function () {
     if(window.location.pathname.includes("secretmayballdayofgame")){
         const params = new Proxy(new URLSearchParams(window.location.search), {
               get: (searchParams, prop) => searchParams.get(prop),
-            });
+            }); 
             // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
             let value = JSON.parse(params.found); // "some_value"
 
