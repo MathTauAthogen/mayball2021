@@ -141,6 +141,8 @@ $(document).ready(function () {
         document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
 
+    console.log(window.location.pathname)
+
     if(window.location.pathname.includes("secretmayballdayofgame")){
         const params = new Proxy(new URLSearchParams(window.location.search), {
               get: (searchParams, prop) => searchParams.get(prop),
