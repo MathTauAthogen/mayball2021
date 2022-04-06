@@ -30,7 +30,7 @@ $(document).ready(function () {
     // Round constants: first 32 bits of the fractional parts of the cube roots of the first 64 primes
     var k = sha256.k = sha256.k || [];
     var primeCounter = k[lengthProperty];
-    /*/
+    /*/ 
     var hash = [], k = [];
     var primeCounter = 0;
     //*/
@@ -125,7 +125,7 @@ $(document).ready(function () {
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
     }
-    
+
     function getCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
