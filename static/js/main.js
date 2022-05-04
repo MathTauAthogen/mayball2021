@@ -157,7 +157,7 @@ $(document).ready(function () {
                 value = params.found.replace(/[^0-9a-zA-Z\s]/gi, '') // "some_value"
             }
             catch{
-                value = "fail";
+                value = null;
             }
 
             console.log(value)
