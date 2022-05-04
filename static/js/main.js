@@ -178,6 +178,8 @@ $(document).ready(function () {
 
                 var checkones = ["c35880a223af77f4fb959290b5dff313b3d134bc8ef9300564d1e7521b35acc2","c39fae21a60ce64f7523f5347df35f83fa9765d81ac682e147d5637b80d89ab3", "0dd5bef605722d8489e996f256930db8bdc1c44f227203fdd6c56451d5cbd406", "03951f45e70010aa8bec558c0c8becc99be271fa2ecac86cbadee9bf20184cd7", "644d1c468f75d6a86e2f8d7f84166585b2ee596f01cea515ed66c0277b66a27f", "3a96b8af1e808ba3f617ab51f828ed7de2567c7e10c11878f74e79a66cb314d2", "8b2f61411d14489329807ac87773b4a8e67e8ae8af8110d89ece21d6e33f0698"]
 
+                var codes = ["020020Superbia at SPACE the Plodge"] //TODO: Remove, this is for testing only
+
                 var newones = []
 
                 for (i = 0; i < verify.length; i++) {
@@ -197,10 +199,10 @@ $(document).ready(function () {
                     console.log(totstring.substring(3,6))
                     var string = totstring.substring(6,totstring.length)
 
-                    console.log(document.querySelector(".p-"+i).style.bottom)
-                    console.log(document.querySelector(".p-"+i).style.left)
-                    document.querySelector(".p-"+i).style.bottom = ycoord+"%"
-                    document.querySelector(".p-"+i).style.left = xcoord+"%"
+                    console.log(document.querySelector(".s-"+i).style.top)
+                    console.log(document.querySelector(".s-"+i).style.left)
+                    document.querySelector(".s-"+i).style.top = ycoord+"%"
+                    document.querySelector(".s-"+i).style.left = xcoord+"%"
                     document.querySelectorAll(".p-"+i)[1].innerHTML = string.replace('SPACE', '<br/>')
                 }
 
@@ -215,6 +217,7 @@ $(document).ready(function () {
                 for(i = 0; i <= 6; i++){
                     if (gamesins.includes(i)){
                     $(".s-" + i.toString()).css("display", "block")
+                    $(".p-" + i.toString()).css("display", "block")
                     }
                     else{
                         document.querySelector(".s-" + i.toString()).innerHTML = ""
