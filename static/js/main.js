@@ -160,6 +160,8 @@ $(document).ready(function () {
                 value = "fail";
             }
 
+            console.log(value)
+
             if (value != null){
 
                 if(getCookie("found") == null){
