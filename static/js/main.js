@@ -214,10 +214,16 @@ $(document).ready(function () {
 
                 console.log(newones)
 
+                var killed = 0
                 for(i = 0; i <= 6; i++){
                     if (gamesins.includes(i)){
                     $(".s-" + i.toString()).css("display", "block")
                     $(".p-" + i.toString()).css("display", "block")
+                    if (killed == 0){
+                        $(".s-" + i.toString()).css("margin-top", "-20vw")
+                        $(".p-" + i.toString()).css("margin-top", "20vw")
+                    }
+                    killed = 1
                     }
                     else{
                         document.querySelector(".s-" + i.toString()).innerHTML = ""
