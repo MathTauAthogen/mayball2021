@@ -192,17 +192,20 @@ $(document).ready(function () {
                 }
 
                 for (i = 0; i < gamecounter; i++){
+                    console.log("IN!")
                     var totstring = newones[i]
                     console.log(totstring.substring(0,3))
                     var xcoord = totstring.substring(0,3)
+                    console.log("xcoord = " + xcoord)
                     var ycoord = totstring.substring(3,6)
                     console.log(totstring.substring(3,6))
                     var string = totstring.substring(6,totstring.length)
-
-                    console.log(document.querySelector(".s-"+i).style.top)
-                    console.log(document.querySelector(".s-"+i).style.left)
                     document.querySelector(".s-"+i).style.top = ycoord+"%"
                     document.querySelector(".s-"+i).style.left = xcoord+"%"
+                    console.log(ycoord+"%")
+                    console.log(xcoord+"%")
+                    console.log(document.querySelector(".s-"+i).style.top)
+                    console.log(document.querySelector(".s-"+i).style.left)
                     document.querySelectorAll(".p-"+i)[1].innerHTML = string.replace('SPACE', '<br/>')
                 }
 
