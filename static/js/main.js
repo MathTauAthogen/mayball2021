@@ -232,24 +232,28 @@ $(document).ready(function () {
         //console.log('a');
         $(".navigation").addClass("animated");
         $(".navbar-brand").addClass("animated");
+        $(".navbar-brand").css("display","none");
     } else {
         //console.log('a');
         $(".navigation").removeClass("animated");
         $(".navbar-brand").removeClass("animated");
+        $(".navbar-brand").css("display","block");
     }
 
     //animated header class
     $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
+        var scroll = $(this).scrollTop();
         //console.log(scroll);
         if (scroll > 20) {
             //console.log('a');
             $(".navigation").addClass("animated");
             $(".navbar-brand").addClass("animated");
+            $(".navbar-brand").css("display","none");
         } else {
             //console.log('a');
             $(".navigation").removeClass("animated");
             $(".navbar-brand").removeClass("animated");
+            $(".navbar-brand").css("display","block");
         }   
     });
 
