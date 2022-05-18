@@ -191,9 +191,10 @@ $(document).ready(function () {
                     }
                 }
 
-                for (i = 0; i < gamecounter; i++){
-                    console.log("IN!")
-                    var totstring = newones[i]
+                for (j = 0; j < gamecounter; j++){
+                    var i = gamesins[j]
+                    console.log("IN!" + i)
+                    var totstring = newones[j]
                     console.log(totstring.substring(0,3))
                     var xcoord = totstring.substring(0,3)
                     console.log("xcoord = " + xcoord)
