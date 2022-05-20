@@ -299,6 +299,7 @@ $(document).ready(function () {
             $(".one").css("display","none");
             $(".two").css("display","block");
             $(".display2").css("display","block");
+            $(".topbot").css("width","90%");
 
         } else {
             $(".normal-nav").css("display","block");
@@ -351,6 +352,7 @@ $(document).ready(function () {
             $(".one").css("display","none");
             $(".two").css("display","block");
             $(".display2").css("display","block");
+            $(".topbot").css("width","90%");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
