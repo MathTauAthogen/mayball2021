@@ -300,6 +300,8 @@ $(document).ready(function () {
             $(".two").css("display","block");
             $(".display2").css("display","block");
             $(".topbot").css("width","90%");
+            $(".topbot2").css("margin-left", "5%");
+            $(".topbot2").css("margin-top","10px");
 
         } else {
             $(".normal-nav").css("display","block");
@@ -367,7 +369,7 @@ $(document).ready(function () {
             $(".headticket").css("font-size","20pt");
             $(".ticketbox").css("min-height","200px");
             $(".headticket").css("font-size","25pt");
-                        $(".small").css("font-size","30pt");
+            $(".small").css("font-size","30pt");
             $(".small2").css("font-size","100pt");
             $(".decenter").css("margin","auto");
             $(".decenter").css("width","100%");
