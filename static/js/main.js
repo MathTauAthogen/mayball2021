@@ -176,20 +176,30 @@ $(document).ready(function () {
 
                 var checkones = ["ea7d8540e2b032d6301ca81039b4ea1d53662fb5a716660726a3c5df53ed6c3b","c39fae21a60ce64f7523f5347df35f83fa9765d81ac682e147d5637b80d89ab3", "0dd5bef605722d8489e996f256930db8bdc1c44f227203fdd6c56451d5cbd406", "03951f45e70010aa8bec558c0c8becc99be271fa2ecac86cbadee9bf20184cd7", "644d1c468f75d6a86e2f8d7f84166585b2ee596f01cea515ed66c0277b66a27f", "3a96b8af1e808ba3f617ab51f828ed7de2567c7e10c11878f74e79a66cb314d2", "8b2f61411d14489329807ac87773b4a8e67e8ae8af8110d89ece21d6e33f0698"]
 
-                var checkones = ["c35880a223af77f4fb959290b5dff313b3d134bc8ef9300564d1e7521b35acc2","c39fae21a60ce64f7523f5347df35f83fa9765d81ac682e147d5637b80d89ab3", "0dd5bef605722d8489e996f256930db8bdc1c44f227203fdd6c56451d5cbd406", "03951f45e70010aa8bec558c0c8becc99be271fa2ecac86cbadee9bf20184cd7", "644d1c468f75d6a86e2f8d7f84166585b2ee596f01cea515ed66c0277b66a27f", "3a96b8af1e808ba3f617ab51f828ed7de2567c7e10c11878f74e79a66cb314d2", "8b2f61411d14489329807ac87773b4a8e67e8ae8af8110d89ece21d6e33f0698"]
+                var checkones = ["c35880a223af77f4fb959290b5dff313b3d134bc8ef9300564d1e7521b35acc2","c39fae21a60ce64f7523f5347df35f83fa9765d81ac682e147d5637b80d89ab3", "0dd5bef605722d8489e996f256930db8bdc1c44f227203fdd6c56451d5cbd406", "03951f45e70010aa8bec558c0c8becc99be271fa2ecac86cbadee9bf20184cd7", "644d1c468f75d6a86e2f8d7f84166585b2ee596f01cea515ed66c0277b66a27f", "3a96b8af1e808ba3f617ab51f828ed7de2567c7e10c11878f74e79a66cb314d2", "8b2f61411d14489329807ac87773b4a8e67e8ae8af8110d89ece21d6e33f0698", "823a3180dad3c9c3c4dea43ab2baf9f04bac9c3a7711745ff5f702551496d735"]
 
-                var codes = ["020020Superbia at SPACE the Plodge"] //TODO: Remove, this is for testing only
+                var codes = ["020020Superbia at SPACE the Plodge", "win"] //TODO: Remove, this is for testing only
+
+                // TODO: Remove this
 
                 var newones = []
 
                 for (i = 0; i < verify.length; i++) {
                     var checksum = sha256(verify[i])
                     if(checkones.includes(checksum)) {
-                        gamecounter += 1
-                        newones.push(verify[i])
-                        gamesins.push(checkones.indexOf(checksum))
+                        gamecounter += 1;
+                        newones.push(verify[i]);
+                        gamesins.push(checkones.indexOf(checksum));
+
+                        if (checkones.indexOf(checksum) == 7){ // TODO: Remove, this is for testing only
+                            gamesins = [0,1,2,3,4,5,6,7];
+                            break;
+                        }
+
+
                     }
                 }
+
 
                 for (j = 0; j < gamecounter; j++){
                     var i = gamesins[j]
@@ -218,8 +228,14 @@ $(document).ready(function () {
 
                 console.log(newones)
 
+                if (gamesins.length == 7){
+                    gamesins.push(7)
+                }
+
+                console.log("Thingy " + gamesins)
+
                 var killed = 0
-                for(i = 0; i <= 6; i++){
+                for(i = 0; i <= 7; i++){
                     if (gamesins.includes(i)){
                     $(".s-" + i.toString()).css("display", "block")
                     $(".p-" + i.toString()).css("display", "block")
