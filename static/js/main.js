@@ -344,6 +344,8 @@ $(document).ready(function () {
             $(".dash_move_2").css("left","0px");
             $(".dash_move_1").css("left","-20px");
             $(".pushdown").css("min-height","200px");
+            $(".ticketbox").css("min-height","325px");
+            $(".headticket").css("font-size","20pt");
             $(".ticketbox").css("min-height","200px");
             $(".headticket").css("font-size","25pt");
             $(".small").css("font-size","30pt");
@@ -353,6 +355,9 @@ $(document).ready(function () {
             $(".one").css("display","inline-block");
             $(".two").css("display","none");
             $(".display2").css("display","table-cell");
+            $(".topbot").css("width","42%");
+            $(".topbot2").css("margin-left","0");
+            $(".topbot2").css("margin-top","0");
         }
         if (scroll > 1980) {
             //console.log('a');
@@ -386,6 +391,8 @@ $(document).ready(function () {
             $(".two").css("display","block");
             $(".display2").css("display","block");
             $(".topbot").css("width","90%");
+            $(".topbot2").css("margin-left", "5%");
+            $(".topbot2").css("margin-top","10px");
         } else {
             $(".normal-nav").css("display","block");
             $(".mobile-nav").css("display","none");
@@ -407,6 +414,9 @@ $(document).ready(function () {
             $(".one").css("display","inline-block");
             $(".two").css("display","none");
             $(".display2").css("display","table-cell");
+            $(".topbot").css("width","42%");
+            $(".topbot2").css("margin-left","0");
+            $(".topbot2").css("margin-top","0");
         }
         if (scroll > 1980) {
             //console.log('a');
